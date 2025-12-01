@@ -127,24 +127,19 @@ sudo apt upgrade -y
 sudo apt install -y python3 python3-pip python3-venv git curl wget nginx
 ```
 
-### Step 3: Create Project Directory
+### Step 3: Clone Your Repository
 ```bash
-mkdir -p ~/cryptix
-cd ~/cryptix
+git clone https://github.com/Hatem-shaban/Cryptix-AWS.git ~/Cryptix-AWS
+cd ~/Cryptix-AWS
 ```
 
-### Step 4: Clone Your Repository
-```bash
-git clone https://github.com/Hatem-shaban/CRYPTIX-ML-02.git .
-```
-
-### Step 5: Create Python Virtual Environment
+### Step 4: Create Python Virtual Environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### Step 6: Install Python Dependencies
+### Step 5: Install Python Dependencies
 ```bash
 pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
@@ -155,7 +150,7 @@ If you get wheel compilation errors, try this alternative:
 pip install -r requirements.txt --no-build-isolation
 ```
 
-### Step 7: Configure Environment
+### Step 6: Configure Environment
 ```bash
 cp .env .env.backup    # Backup existing config
 nano .env              # Edit your configuration
@@ -177,7 +172,7 @@ RENDER_DEPLOYMENT=false  # This disables Render-specific optimizations
 
 Press `Ctrl+X`, then `Y`, then `Enter` to save.
 
-### Step 8: Test the Bot
+### Step 7: Test the Bot
 ```bash
 # Test configuration
 python render_launcher.py &
@@ -205,11 +200,11 @@ After=network.target
 [Service]
 Type=simple
 User=ubuntu
-WorkingDirectory=/home/ubuntu/cryptix
-Environment="PATH=/home/ubuntu/cryptix/venv/bin"
+WorkingDirectory=/home/ubuntu/Cryptix-AWS
+Environment="PATH=/home/ubuntu/Cryptix-AWS/venv/bin"
 Environment="PYTHONUNBUFFERED=1"
-EnvironmentFile=/home/ubuntu/cryptix/.env
-ExecStart=/home/ubuntu/cryptix/venv/bin/python render_launcher.py
+EnvironmentFile=/home/ubuntu/Cryptix-AWS/.env
+ExecStart=/home/ubuntu/Cryptix-AWS/venv/bin/python render_launcher.py
 Restart=always
 RestartSec=10
 StandardOutput=journal
@@ -260,15 +255,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
         
-        # WebSocket support (if needed)
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
-    }
-
-    location /logs {
-        alias /home/ubuntu/cryptix/logs;
-        autoindex on;
     }
 }
 ```
@@ -299,8 +288,8 @@ sudo journalctl -u cryptix -f                  # Live logs
 
 ### View Application Logs
 ```bash
-tail -f ~/cryptix/logs/error_log.csv
-ls -lh ~/cryptix/logs/
+tail -f ~/Cryptix-AWS/logs/error_log.csv
+ls -lh ~/Cryptix-AWS/logs/
 ```
 
 ### Restart Bot
@@ -318,7 +307,7 @@ sudo systemctl start cryptix    # Start
 
 ### Update Bot Code
 ```bash
-cd ~/cryptix
+cd ~/Cryptix-AWS
 git pull
 sudo systemctl restart cryptix
 ```
@@ -345,8 +334,8 @@ du -sh ~/cryptix/logs/
 
 If logs get too large:
 ```bash
-find ~/cryptix/logs -name "*.csv" -mtime +30 -delete    # Delete logs > 30 days old
-gzip ~/cryptix/logs/error_log.csv                       # Compress current log
+find ~/Cryptix-AWS/logs -name "*.csv" -mtime +30 -delete    # Delete logs > 30 days old
+gzip ~/Cryptix-AWS/logs/error_log.csv                       # Compress current log
 ```
 
 ### Check CPU Usage
@@ -409,7 +398,7 @@ sudo journalctl -u cryptix -n 100 --no-pager
 # Check if port 5000 is in use
 sudo lsof -i :5000
 # Check Python environment
-~/cryptix/venv/bin/python --version
+~/Cryptix-AWS/venv/bin/python --version
 ```
 
 ### Connection to Binance API Fails
@@ -439,7 +428,7 @@ sudo swapon /swapfile
 
 2. Or reduce historical data in config:
 ```bash
-nano ~/cryptix/config.py
+nano ~/Cryptix-AWS/config.py
 # Reduce LOOKBACK_PERIOD or BATCH_SIZE
 ```
 

@@ -1,0 +1,54 @@
+# Render Configuration for CRYPTIX-ML Bot
+
+# Build Command
+build = "pip install -r requirements.txt"
+
+# Start Command  
+start = "python render_launcher.py"
+
+# Environment Settings
+[build.env]
+PYTHON_VERSION = "3.11"
+PYTHONHASHSEED = "1"
+PYTHONDONTWRITEBYTECODE = "1" 
+PYTHONUNBUFFERED = "1"
+
+# Memory Optimization Flags
+MALLOC_TRIM_THRESHOLD = "131072"
+MALLOC_MMAP_THRESHOLD = "131072"
+
+# Disable unnecessary features
+PYTHONNOUSERSITE = "1"
+
+[deploy.env]
+# Production settings
+FLASK_ENV = "production"
+FLASK_DEBUG = "False"
+
+# Memory Management
+MAX_MEMORY_MB = "480"
+FORCE_GC_INTERVAL = "180"
+
+# Trading Settings (keep original values)
+# These are NOT changed to preserve trading logic
+USE_TESTNET = "False"
+ML_ENABLED = "True"
+
+# Render-specific optimizations
+RENDER_DEPLOYMENT = "True"
+OPTIMIZE_MEMORY = "True"
+
+# ===== AUTOSTART CONFIGURATION =====
+# Controls whether the trading bot starts automatically after deployment
+#
+# AUTOSTART_BOT = "True"  (default)
+#   - Bot starts automatically when Render deploys/restarts
+#   - Begins monitoring and trading immediately
+#   - Recommended for hands-free operation
+#
+# AUTOSTART_BOT = "False"
+#   - Bot waits for manual start via web interface
+#   - Access /start endpoint or use the web UI
+#   - Useful for testing or manual control
+#
+AUTOSTART_BOT = "True"

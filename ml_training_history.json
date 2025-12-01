@@ -1,0 +1,465 @@
+[
+  {
+    "timestamp": "2025-09-01T10:33:39.242118",
+    "data_samples": 158579,
+    "data_period": "2024-09-01 07:00:00 to 2025-09-01 06:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.794723441823069,
+        "test_accuracy": 0.5328540799596418,
+        "features_used": 50.0,
+        "training_samples": 126863
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.7976399738300372,
+        "test_accuracy": 0.6972190692395006,
+        "auc_score": 0.5777868395324401,
+        "features_used": 40.0,
+        "training_samples": 126863,
+        "positive_rate": 0.24681743297888273
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8033784476167204,
+        "test_accuracy": 0.7528376844494892,
+        "features_used": 35.0,
+        "training_samples": 126863,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-01T12:08:46.837228",
+    "data_samples": 158577,
+    "data_period": "2024-09-01 09:00:00 to 2025-09-01 07:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.794310308132523,
+        "test_accuracy": 0.5293857989658217,
+        "features_used": 50.0,
+        "training_samples": 126861
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.7982358644500674,
+        "test_accuracy": 0.710903014251482,
+        "auc_score": 0.6005134398217539,
+        "features_used": 40.0,
+        "training_samples": 126861,
+        "positive_rate": 0.24701839020660407
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8042976170769582,
+        "test_accuracy": 0.7556438390717619,
+        "features_used": 35.0,
+        "training_samples": 126861,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-02T10:16:30.868597",
+    "data_samples": 37772,
+    "data_period": "2025-06-04 08:00:00 to 2025-09-02 06:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.858887381275441,
+        "test_accuracy": 0.5612177365982793,
+        "features_used": 50.0,
+        "training_samples": 30217
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.883376907039084,
+        "test_accuracy": 0.6010589013898081,
+        "auc_score": 0.5167646602903465,
+        "features_used": 40.0,
+        "training_samples": 30217,
+        "positive_rate": 0.22404606678359865
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8504815170268392,
+        "test_accuracy": 0.7305095962938452,
+        "features_used": 35.0,
+        "training_samples": 30217,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-14T09:14:10.473473",
+    "data_samples": 37772,
+    "data_period": "2025-06-04 08:00:00 to 2025-09-02 06:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.858887381275441,
+        "test_accuracy": 0.5612177365982793,
+        "features_used": 50.0,
+        "training_samples": 30217
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.8800013237581494,
+        "test_accuracy": 0.571939113170086,
+        "auc_score": 0.5047290725601785,
+        "features_used": 40.0,
+        "training_samples": 30217,
+        "positive_rate": 0.22404606678359865
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8504815170268392,
+        "test_accuracy": 0.7305095962938452,
+        "features_used": 35.0,
+        "training_samples": 30217,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-14T09:51:56.221059",
+    "data_samples": 10066,
+    "data_period": "2025-08-15 07:00:00 to 2025-09-14 05:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.9113263785394933,
+        "test_accuracy": 0.5491559086395233,
+        "features_used": 50.0,
+        "training_samples": 8052
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.9833581718827621,
+        "test_accuracy": 0.7497517378351539,
+        "auc_score": 0.5006424958115779,
+        "features_used": 40.0,
+        "training_samples": 8052,
+        "positive_rate": 0.16592151018380527
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8849975161450572,
+        "test_accuracy": 0.7482621648460774,
+        "features_used": 35.0,
+        "training_samples": 8052,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-14T09:56:57.384356",
+    "data_samples": 10066,
+    "data_period": "2025-08-15 07:00:00 to 2025-09-14 05:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.9113263785394933,
+        "test_accuracy": 0.5491559086395233,
+        "features_used": 50.0,
+        "training_samples": 8052
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.9832339791356185,
+        "test_accuracy": 0.7934458788480635,
+        "auc_score": 0.5045927413077171,
+        "features_used": 40.0,
+        "training_samples": 8052,
+        "positive_rate": 0.16592151018380527
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8849975161450572,
+        "test_accuracy": 0.7482621648460774,
+        "features_used": 35.0,
+        "training_samples": 8052,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-21T14:45:05.724771",
+    "data_samples": 37772,
+    "data_period": "2025-06-23 12:00:00 to 2025-09-21 10:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.863553628752027,
+        "test_accuracy": 0.5625413633355394,
+        "features_used": 50.0,
+        "training_samples": 30217
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.8867524903200186,
+        "test_accuracy": 0.6022501654533422,
+        "auc_score": 0.5306352215013,
+        "features_used": 40.0,
+        "training_samples": 30217,
+        "positive_rate": 0.2223251811893967
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8503160472581659,
+        "test_accuracy": 0.7421575115817339,
+        "features_used": 35.0,
+        "training_samples": 30217,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-09-30T11:04:55.570372",
+    "data_samples": 37772,
+    "data_period": "2025-07-02 08:00:00 to 2025-09-30 06:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.8529966575106728,
+        "test_accuracy": 0.5448047650562541,
+        "features_used": 50.0,
+        "training_samples": 30217
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.8922129926862362,
+        "test_accuracy": 0.7547319655857049,
+        "auc_score": 0.6131594724220624,
+        "features_used": 40.0,
+        "training_samples": 30217,
+        "positive_rate": 0.22040573187278684
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8606082668696429,
+        "test_accuracy": 0.7310390469887492,
+        "features_used": 35.0,
+        "training_samples": 30217,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-10-14T08:52:35.995497",
+    "data_samples": 37772,
+    "data_period": "2025-07-16 06:00:00 to 2025-10-14 04:00:00",
+    "results": {
+      "trend": {
+        "success": true,
+        "train_accuracy": 0.8915180196578085,
+        "test_accuracy": 0.543216412971542,
+        "features_used": 50.0,
+        "training_samples": 30217
+      },
+      "signal": {
+        "success": true,
+        "train_accuracy": 0.9023728364827746,
+        "test_accuracy": 0.5598941098610192,
+        "auc_score": 0.4907828536466056,
+        "features_used": 40.0,
+        "training_samples": 30217,
+        "positive_rate": 0.22258993281927392
+      },
+      "regime": {
+        "success": true,
+        "train_accuracy": 0.8511433961015322,
+        "test_accuracy": 0.7552614162806088,
+        "features_used": 35.0,
+        "training_samples": 30217,
+        "regime_classes": [
+          "downtrend",
+          "sideways",
+          "uptrend"
+        ]
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-10-23T14:55:04.373295",
+    "data_samples": 37772,
+    "data_period": "2025-07-25 12:00:00 to 2025-10-23 10:00:00",
+    "training_mode": "incremental",
+    "results": {
+      "trend": {
+        "success": true,
+        "model_name": "trend",
+        "samples_added": 37772,
+        "total_samples_seen": 113316,
+        "training_sessions": 3,
+        "accuracy": 0.5027004130043419,
+        "auc_score": 0.49760525778153203,
+        "version": 3,
+        "is_incremental": true
+      },
+      "signal": {
+        "success": true,
+        "model_name": "signal",
+        "samples_added": 37772,
+        "total_samples_seen": 113316,
+        "training_sessions": 3,
+        "accuracy": 0.6207508207137562,
+        "auc_score": null,
+        "version": 3,
+        "is_incremental": true
+      },
+      "regime": {
+        "success": true,
+        "model_name": "regime",
+        "samples_added": 37772,
+        "total_samples_seen": 113316,
+        "training_sessions": 3,
+        "accuracy": 0.6662871968654029,
+        "auc_score": null,
+        "version": 3,
+        "is_incremental": true
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  },
+  {
+    "timestamp": "2025-10-26T12:25:03.910227",
+    "data_samples": 37772,
+    "data_period": "2025-07-28 10:00:00 to 2025-10-26 08:00:00",
+    "training_mode": "incremental",
+    "results": {
+      "trend": {
+        "success": true,
+        "model_name": "trend",
+        "samples_added": 37772,
+        "total_samples_seen": 151088,
+        "training_sessions": 4,
+        "accuracy": 0.503441702848671,
+        "auc_score": 0.5050894452351811,
+        "version": 4,
+        "is_incremental": true
+      },
+      "signal": {
+        "success": true,
+        "model_name": "signal",
+        "samples_added": 37772,
+        "total_samples_seen": 151088,
+        "training_sessions": 4,
+        "accuracy": 0.6474637297469025,
+        "auc_score": null,
+        "version": 4,
+        "is_incremental": true
+      },
+      "regime": {
+        "success": true,
+        "model_name": "regime",
+        "samples_added": 37772,
+        "total_samples_seen": 151088,
+        "training_sessions": 4,
+        "accuracy": 0.6453722334004024,
+        "auc_score": null,
+        "version": 4,
+        "is_incremental": true
+      }
+    },
+    "models_trained": [
+      "trend",
+      "signal",
+      "regime"
+    ],
+    "training_duration": "completed"
+  }
+]

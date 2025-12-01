@@ -1,0 +1,446 @@
+{
+  "XRPUSDT": {
+    "quantity": 12.8,
+    "avg_buy_price": 3.002244444444444,
+    "total_cost": 38.428728888888884,
+    "trades": [
+      {
+        "action": "BUY",
+        "quantity": 3.1,
+        "price": 3.1262,
+        "timestamp": "2025-09-21T14:28:49.699627"
+      },
+      {
+        "action": "BUY",
+        "quantity": 3.2,
+        "price": 3.0864,
+        "timestamp": "2025-09-21T14:28:49.706547"
+      },
+      {
+        "action": "BUY",
+        "quantity": 3.6,
+        "price": 2.8207,
+        "timestamp": "2025-09-21T14:28:49.816991"
+      },
+      {
+        "action": "SELL",
+        "quantity": 3.5,
+        "price": 2.8057,
+        "timestamp": "2025-09-21T14:28:49.838048"
+      },
+      {
+        "action": "BUY",
+        "quantity": 3.1,
+        "price": 3.1262,
+        "timestamp": "2025-09-21T14:28:49.900243"
+      },
+      {
+        "action": "BUY",
+        "quantity": 3.2,
+        "price": 3.0864,
+        "timestamp": "2025-09-21T14:28:49.905191"
+      },
+      {
+        "action": "BUY",
+        "quantity": 3.6,
+        "price": 2.8207,
+        "timestamp": "2025-09-21T14:28:49.980592"
+      },
+      {
+        "action": "SELL",
+        "quantity": 3.5,
+        "price": 2.8057,
+        "timestamp": "2025-09-21T14:28:50.007302"
+      }
+    ]
+  },
+  "ETHUSDT": {
+    "quantity": 0.014499999999999994,
+    "avg_buy_price": 4570.485013507617,
+    "total_cost": 66.27203269586042,
+    "trades": [
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4311.58,
+        "timestamp": "2025-09-21T14:28:49.767309"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0022,
+        "price": 4355.6,
+        "timestamp": "2025-09-21T14:28:49.793844"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4318.55,
+        "timestamp": "2025-09-21T14:28:49.816991"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4307.4,
+        "timestamp": "2025-09-21T14:28:49.826040"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0023,
+        "price": 4306.86,
+        "timestamp": "2025-09-21T14:28:49.826040"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4309.33,
+        "timestamp": "2025-09-21T14:28:49.831021"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4296.1,
+        "timestamp": "2025-09-21T14:28:49.847033"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0014,
+        "price": 4376.47,
+        "timestamp": "2025-09-21T14:28:49.856235"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4311.58,
+        "timestamp": "2025-09-21T14:28:49.942454"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0022,
+        "price": 4355.6,
+        "timestamp": "2025-09-21T14:28:49.958505"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4318.55,
+        "timestamp": "2025-09-21T14:28:49.985136"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4307.4,
+        "timestamp": "2025-09-21T14:28:49.993613"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0023,
+        "price": 4306.86,
+        "timestamp": "2025-09-21T14:28:49.997255"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4309.33,
+        "timestamp": "2025-09-21T14:28:50.000368"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4296.1,
+        "timestamp": "2025-09-21T14:28:50.017497"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0023,
+        "price": 4344.91,
+        "timestamp": "2025-09-21T14:28:50.037935"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4411.05,
+        "timestamp": "2025-09-21T14:28:50.095779"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0023,
+        "price": 4429.67,
+        "timestamp": "2025-09-21T14:28:50.099184"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0022,
+        "price": 4545.77,
+        "timestamp": "2025-09-21T14:28:50.132654"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0022,
+        "price": 4571.87,
+        "timestamp": "2025-09-21T14:28:50.138806"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0022,
+        "price": 4613.95,
+        "timestamp": "2025-09-21T14:28:50.148237"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0021,
+        "price": 4643.43,
+        "timestamp": "2025-09-21T14:28:50.159656"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0022,
+        "price": 4643.42,
+        "timestamp": "2025-09-21T14:28:50.162272"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0021,
+        "price": 4649.68,
+        "timestamp": "2025-09-21T14:28:50.162272"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0021,
+        "price": 4661.83,
+        "timestamp": "2025-09-21T14:28:50.171346"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0021,
+        "price": 4652.08,
+        "timestamp": "2025-09-21T14:28:50.171346"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0021,
+        "price": 4700.48,
+        "timestamp": "2025-09-21T14:28:50.171346"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0021,
+        "price": 4726.28,
+        "timestamp": "2025-09-21T14:28:50.185044"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.0021,
+        "price": 4754.5,
+        "timestamp": "2025-09-21T14:28:50.187655"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.0021,
+        "price": 4730.89,
+        "timestamp": "2025-09-21T14:28:50.208497"
+      }
+    ]
+  },
+  "DOTUSDT": {
+    "quantity": 2.65,
+    "avg_buy_price": 3.807,
+    "total_cost": 10.08855,
+    "trades": [
+      {
+        "action": "BUY",
+        "quantity": 2.65,
+        "price": 3.807,
+        "timestamp": "2025-09-21T14:28:50.014096"
+      }
+    ]
+  },
+  "AVAXUSDT": {
+    "quantity": 1.7099999999999997,
+    "avg_buy_price": 29.970314480751192,
+    "total_cost": 51.24923776208453,
+    "trades": [
+      {
+        "action": "BUY",
+        "quantity": 0.39,
+        "price": 25.33,
+        "timestamp": "2025-09-21T14:28:50.022471"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.19,
+        "price": 0.0,
+        "timestamp": "2025-09-21T14:28:50.025394"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.18,
+        "price": 0.0,
+        "timestamp": "2025-09-21T14:28:50.033397"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.35,
+        "price": 28.34,
+        "timestamp": "2025-09-21T14:28:50.039076"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.27,
+        "price": 28.44,
+        "timestamp": "2025-09-21T14:28:50.047071"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.35,
+        "price": 29.07,
+        "timestamp": "2025-09-21T14:28:50.047071"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.35,
+        "price": 28.68,
+        "timestamp": "2025-09-21T14:28:50.054689"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.28,
+        "price": 28.68,
+        "timestamp": "2025-09-21T14:28:50.056283"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.34,
+        "price": 29.37,
+        "timestamp": "2025-09-21T14:28:50.061818"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.35,
+        "price": 29.1,
+        "timestamp": "2025-09-21T14:28:50.061818"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.34,
+        "price": 29.17,
+        "timestamp": "2025-09-21T14:28:50.061818"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.31,
+        "price": 29.17,
+        "timestamp": "2025-09-21T14:28:50.072114"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.34,
+        "price": 29.35,
+        "timestamp": "2025-09-21T14:28:50.075638"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.32,
+        "price": 29.34,
+        "timestamp": "2025-09-21T14:28:50.077661"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.35,
+        "price": 29.1,
+        "timestamp": "2025-09-21T14:28:50.082462"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.34,
+        "price": 29.2,
+        "timestamp": "2025-09-21T14:28:50.082462"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.34,
+        "price": 29.4,
+        "timestamp": "2025-09-21T14:28:50.082462"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.36,
+        "price": 28.31,
+        "timestamp": "2025-09-21T14:28:50.128893"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.34,
+        "price": 29.79,
+        "timestamp": "2025-09-21T14:28:50.187655"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.33,
+        "price": 30.87,
+        "timestamp": "2025-09-21T14:28:50.197744"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.33,
+        "price": 30.65,
+        "timestamp": "2025-09-21T14:28:50.205388"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.33,
+        "price": 30.87,
+        "timestamp": "2025-09-21T14:28:50.258270"
+      },
+      {
+        "action": "BUY",
+        "quantity": 1.13,
+        "price": 29.72,
+        "timestamp": "2025-10-07T08:28:03.975457"
+      }
+    ]
+  },
+  "BTCUSDT": {
+    "quantity": 0.0001,
+    "avg_buy_price": 123866.01,
+    "total_cost": 12.386601,
+    "trades": [
+      {
+        "action": "BUY",
+        "quantity": 0.0001,
+        "price": 123866.01,
+        "timestamp": "2025-10-07T08:59:16.718259"
+      }
+    ]
+  },
+  "BNBUSDT": {
+    "quantity": 0.031,
+    "avg_buy_price": 1286.9907956989248,
+    "total_cost": 39.89671466666667,
+    "trades": [
+      {
+        "action": "BUY",
+        "quantity": 0.022,
+        "price": 1278.68,
+        "timestamp": "2025-10-07T10:01:55.938284"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.008,
+        "price": 1283.29,
+        "timestamp": "2025-10-07T10:33:01.535046"
+      },
+      {
+        "action": "SELL",
+        "quantity": 0.007,
+        "price": 1298.72,
+        "timestamp": "2025-10-07T11:35:11.355464"
+      },
+      {
+        "action": "BUY",
+        "quantity": 0.008,
+        "price": 1307.35,
+        "timestamp": "2025-10-07T12:06:18.222940"
+      }
+    ]
+  }
+}

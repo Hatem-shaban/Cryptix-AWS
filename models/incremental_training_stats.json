@@ -1,0 +1,1813 @@
+{
+  "trend": {
+    "total_samples_seen": 4692913,
+    "training_sessions": 75,
+    "last_trained": "2025-10-30T10:11:23.926740",
+    "performance_history": [
+      {
+        "timestamp": "2025-10-23T14:38:47.644711",
+        "samples_added": 37772,
+        "total_samples": 37772,
+        "accuracy": null,
+        "auc_score": null,
+        "training_session": 1,
+        "note": "Migrated from batch model (estimated)"
+      },
+      {
+        "timestamp": "2025-10-23T14:48:46.702470",
+        "samples_added": 37772,
+        "total_samples": 75544,
+        "accuracy": 0.49867626813512655,
+        "auc_score": 0.5001504884990501,
+        "training_session": 2
+      },
+      {
+        "timestamp": "2025-10-23T14:54:59.986045",
+        "samples_added": 37772,
+        "total_samples": 113316,
+        "accuracy": 0.5027004130043419,
+        "auc_score": 0.49760525778153203,
+        "training_session": 3
+      },
+      {
+        "timestamp": "2025-10-26T12:24:55.520649",
+        "samples_added": 37772,
+        "total_samples": 151088,
+        "accuracy": 0.503441702848671,
+        "auc_score": 0.5050894452351811,
+        "training_session": 4
+      },
+      {
+        "timestamp": "2025-10-29T10:31:13.389746",
+        "samples_added": 50000,
+        "total_samples": 201088,
+        "accuracy": 0.49668,
+        "auc_score": 0.4929823985667422,
+        "training_session": 5
+      },
+      {
+        "timestamp": "2025-10-29T10:31:13.999555",
+        "samples_added": 50000,
+        "total_samples": 251088,
+        "accuracy": 0.4923,
+        "auc_score": 0.49017284251820337,
+        "training_session": 6
+      },
+      {
+        "timestamp": "2025-10-29T10:31:14.264271",
+        "samples_added": 22640,
+        "total_samples": 273728,
+        "accuracy": 0.5011484098939929,
+        "auc_score": 0.4968148829424802,
+        "training_session": 7
+      },
+      {
+        "timestamp": "2025-10-29T10:31:46.530256",
+        "samples_added": 50000,
+        "total_samples": 323728,
+        "accuracy": 0.49232,
+        "auc_score": 0.4877525340638933,
+        "training_session": 8
+      },
+      {
+        "timestamp": "2025-10-29T10:31:47.103855",
+        "samples_added": 50000,
+        "total_samples": 373728,
+        "accuracy": 0.49296,
+        "auc_score": 0.49001930887005524,
+        "training_session": 9
+      },
+      {
+        "timestamp": "2025-10-29T10:31:47.452499",
+        "samples_added": 22640,
+        "total_samples": 396368,
+        "accuracy": 0.503047703180212,
+        "auc_score": 0.4962378999435706,
+        "training_session": 10
+      },
+      {
+        "timestamp": "2025-10-29T10:47:05.602721",
+        "samples_added": 50000,
+        "total_samples": 446368,
+        "accuracy": 0.49066,
+        "auc_score": 0.4886878709070141,
+        "training_session": 11
+      },
+      {
+        "timestamp": "2025-10-29T10:47:06.173452",
+        "samples_added": 50000,
+        "total_samples": 496368,
+        "accuracy": 0.50154,
+        "auc_score": 0.5015495847763214,
+        "training_session": 12
+      },
+      {
+        "timestamp": "2025-10-29T10:47:06.741281",
+        "samples_added": 50000,
+        "total_samples": 546368,
+        "accuracy": 0.48216,
+        "auc_score": 0.4783389438544522,
+        "training_session": 13
+      },
+      {
+        "timestamp": "2025-10-29T10:47:07.343566",
+        "samples_added": 50000,
+        "total_samples": 596368,
+        "accuracy": 0.48454,
+        "auc_score": 0.4797456860237027,
+        "training_session": 14
+      },
+      {
+        "timestamp": "2025-10-29T10:47:07.943484",
+        "samples_added": 50000,
+        "total_samples": 646368,
+        "accuracy": 0.49646,
+        "auc_score": 0.4987890360050249,
+        "training_session": 15
+      },
+      {
+        "timestamp": "2025-10-29T10:47:08.471924",
+        "samples_added": 50000,
+        "total_samples": 696368,
+        "accuracy": 0.51834,
+        "auc_score": 0.5237193233777968,
+        "training_session": 16
+      },
+      {
+        "timestamp": "2025-10-29T10:47:09.001847",
+        "samples_added": 50000,
+        "total_samples": 746368,
+        "accuracy": 0.49954,
+        "auc_score": 0.5044817309606642,
+        "training_session": 17
+      },
+      {
+        "timestamp": "2025-10-29T10:47:09.530604",
+        "samples_added": 50000,
+        "total_samples": 796368,
+        "accuracy": 0.5224,
+        "auc_score": 0.531785668545082,
+        "training_session": 18
+      },
+      {
+        "timestamp": "2025-10-29T10:47:09.985751",
+        "samples_added": 50000,
+        "total_samples": 846368,
+        "accuracy": 0.50946,
+        "auc_score": 0.5078357549324224,
+        "training_session": 19
+      },
+      {
+        "timestamp": "2025-10-29T10:47:10.450104",
+        "samples_added": 50000,
+        "total_samples": 896368,
+        "accuracy": 0.531,
+        "auc_score": 0.5429755435976654,
+        "training_session": 20
+      },
+      {
+        "timestamp": "2025-10-29T10:47:10.886318",
+        "samples_added": 50000,
+        "total_samples": 946368,
+        "accuracy": 0.517,
+        "auc_score": 0.5174055075476577,
+        "training_session": 21
+      },
+      {
+        "timestamp": "2025-10-29T10:47:11.340009",
+        "samples_added": 50000,
+        "total_samples": 996368,
+        "accuracy": 0.51602,
+        "auc_score": 0.5210222402486894,
+        "training_session": 22
+      },
+      {
+        "timestamp": "2025-10-29T10:47:11.806389",
+        "samples_added": 50000,
+        "total_samples": 1046368,
+        "accuracy": 0.51314,
+        "auc_score": 0.5156297502531733,
+        "training_session": 23
+      },
+      {
+        "timestamp": "2025-10-29T10:47:12.269617",
+        "samples_added": 50000,
+        "total_samples": 1096368,
+        "accuracy": 0.50108,
+        "auc_score": 0.5047509288601572,
+        "training_session": 24
+      },
+      {
+        "timestamp": "2025-10-29T10:47:12.856504",
+        "samples_added": 50000,
+        "total_samples": 1146368,
+        "accuracy": 0.52426,
+        "auc_score": 0.528583696343117,
+        "training_session": 25
+      },
+      {
+        "timestamp": "2025-10-29T10:47:13.431553",
+        "samples_added": 50000,
+        "total_samples": 1196368,
+        "accuracy": 0.5042,
+        "auc_score": 0.5008975543568741,
+        "training_session": 26
+      },
+      {
+        "timestamp": "2025-10-29T10:47:13.999013",
+        "samples_added": 50000,
+        "total_samples": 1246368,
+        "accuracy": 0.49686,
+        "auc_score": 0.4906747942823171,
+        "training_session": 27
+      },
+      {
+        "timestamp": "2025-10-29T10:47:14.820326",
+        "samples_added": 50000,
+        "total_samples": 1296368,
+        "accuracy": 0.50448,
+        "auc_score": 0.5002687158207266,
+        "training_session": 28
+      },
+      {
+        "timestamp": "2025-10-29T10:47:15.444808",
+        "samples_added": 50000,
+        "total_samples": 1346368,
+        "accuracy": 0.5012,
+        "auc_score": 0.5105748845758721,
+        "training_session": 29
+      },
+      {
+        "timestamp": "2025-10-29T10:47:15.990235",
+        "samples_added": 50000,
+        "total_samples": 1396368,
+        "accuracy": 0.5194,
+        "auc_score": 0.5250143999707673,
+        "training_session": 30
+      },
+      {
+        "timestamp": "2025-10-29T10:47:16.453273",
+        "samples_added": 50000,
+        "total_samples": 1446368,
+        "accuracy": 0.51594,
+        "auc_score": 0.5208465244007598,
+        "training_session": 31
+      },
+      {
+        "timestamp": "2025-10-29T10:47:16.922398",
+        "samples_added": 50000,
+        "total_samples": 1496368,
+        "accuracy": 0.51124,
+        "auc_score": 0.5129201655628133,
+        "training_session": 32
+      },
+      {
+        "timestamp": "2025-10-29T10:47:17.433694",
+        "samples_added": 50000,
+        "total_samples": 1546368,
+        "accuracy": 0.51074,
+        "auc_score": 0.5240679442274979,
+        "training_session": 33
+      },
+      {
+        "timestamp": "2025-10-29T10:47:17.924100",
+        "samples_added": 50000,
+        "total_samples": 1596368,
+        "accuracy": 0.49276,
+        "auc_score": 0.4941439707985795,
+        "training_session": 34
+      },
+      {
+        "timestamp": "2025-10-29T10:47:18.499107",
+        "samples_added": 50000,
+        "total_samples": 1646368,
+        "accuracy": 0.50538,
+        "auc_score": 0.5112801980250886,
+        "training_session": 35
+      },
+      {
+        "timestamp": "2025-10-29T10:47:19.013802",
+        "samples_added": 50000,
+        "total_samples": 1696368,
+        "accuracy": 0.50756,
+        "auc_score": 0.5093598777363008,
+        "training_session": 36
+      },
+      {
+        "timestamp": "2025-10-29T10:47:19.469989",
+        "samples_added": 50000,
+        "total_samples": 1746368,
+        "accuracy": 0.52024,
+        "auc_score": 0.5293366139041519,
+        "training_session": 37
+      },
+      {
+        "timestamp": "2025-10-29T10:47:19.894503",
+        "samples_added": 50000,
+        "total_samples": 1796368,
+        "accuracy": 0.54688,
+        "auc_score": 0.5549327581557104,
+        "training_session": 38
+      },
+      {
+        "timestamp": "2025-10-29T10:47:20.366266",
+        "samples_added": 50000,
+        "total_samples": 1846368,
+        "accuracy": 0.52926,
+        "auc_score": 0.543034908502321,
+        "training_session": 39
+      },
+      {
+        "timestamp": "2025-10-29T10:47:20.856855",
+        "samples_added": 50000,
+        "total_samples": 1896368,
+        "accuracy": 0.53132,
+        "auc_score": 0.5469213420272104,
+        "training_session": 40
+      },
+      {
+        "timestamp": "2025-10-29T10:47:21.321745",
+        "samples_added": 50000,
+        "total_samples": 1946368,
+        "accuracy": 0.52764,
+        "auc_score": 0.5359504857520777,
+        "training_session": 41
+      },
+      {
+        "timestamp": "2025-10-29T10:47:21.636429",
+        "samples_added": 33681,
+        "total_samples": 1980049,
+        "accuracy": 0.490721771918886,
+        "auc_score": 0.49105930773886186,
+        "training_session": 42
+      },
+      {
+        "timestamp": "2025-10-29T12:17:09.455857",
+        "samples_added": 50000,
+        "total_samples": 2030049,
+        "accuracy": 0.4956,
+        "auc_score": 0.5172388588163279,
+        "training_session": 43
+      },
+      {
+        "timestamp": "2025-10-29T12:17:10.197009",
+        "samples_added": 50000,
+        "total_samples": 2080049,
+        "accuracy": 0.4984,
+        "auc_score": 0.50483241972761,
+        "training_session": 44
+      },
+      {
+        "timestamp": "2025-10-29T12:17:10.805979",
+        "samples_added": 50000,
+        "total_samples": 2130049,
+        "accuracy": 0.51646,
+        "auc_score": 0.5209527984661689,
+        "training_session": 45
+      },
+      {
+        "timestamp": "2025-10-29T12:17:11.436154",
+        "samples_added": 50000,
+        "total_samples": 2180049,
+        "accuracy": 0.5074,
+        "auc_score": 0.5110822320004661,
+        "training_session": 46
+      },
+      {
+        "timestamp": "2025-10-29T12:17:12.044559",
+        "samples_added": 50000,
+        "total_samples": 2230049,
+        "accuracy": 0.50556,
+        "auc_score": 0.5052053304929043,
+        "training_session": 47
+      },
+      {
+        "timestamp": "2025-10-29T12:17:12.643256",
+        "samples_added": 50000,
+        "total_samples": 2280049,
+        "accuracy": 0.5206,
+        "auc_score": 0.536763427857698,
+        "training_session": 48
+      },
+      {
+        "timestamp": "2025-10-29T12:17:13.282134",
+        "samples_added": 50000,
+        "total_samples": 2330049,
+        "accuracy": 0.51816,
+        "auc_score": 0.521947680081803,
+        "training_session": 49
+      },
+      {
+        "timestamp": "2025-10-29T12:17:14.026142",
+        "samples_added": 50000,
+        "total_samples": 2380049,
+        "accuracy": 0.52326,
+        "auc_score": 0.5276739122463666,
+        "training_session": 50
+      },
+      {
+        "timestamp": "2025-10-29T12:17:14.696085",
+        "samples_added": 50000,
+        "total_samples": 2430049,
+        "accuracy": 0.50554,
+        "auc_score": 0.5073820255280641,
+        "training_session": 51
+      },
+      {
+        "timestamp": "2025-10-29T12:17:15.576671",
+        "samples_added": 50000,
+        "total_samples": 2480049,
+        "accuracy": 0.53328,
+        "auc_score": 0.5385795790821644,
+        "training_session": 52
+      },
+      {
+        "timestamp": "2025-10-29T12:17:16.130912",
+        "samples_added": 50000,
+        "total_samples": 2530049,
+        "accuracy": 0.5162,
+        "auc_score": 0.516145185718184,
+        "training_session": 53
+      },
+      {
+        "timestamp": "2025-10-29T12:17:16.752555",
+        "samples_added": 50000,
+        "total_samples": 2580049,
+        "accuracy": 0.51302,
+        "auc_score": 0.5148225830832567,
+        "training_session": 54
+      },
+      {
+        "timestamp": "2025-10-29T12:17:17.533895",
+        "samples_added": 50000,
+        "total_samples": 2630049,
+        "accuracy": 0.5068,
+        "auc_score": 0.5047851129339057,
+        "training_session": 55
+      },
+      {
+        "timestamp": "2025-10-29T12:17:18.188979",
+        "samples_added": 50000,
+        "total_samples": 2680049,
+        "accuracy": 0.5069,
+        "auc_score": 0.501472300410237,
+        "training_session": 56
+      },
+      {
+        "timestamp": "2025-10-29T12:17:18.754813",
+        "samples_added": 50000,
+        "total_samples": 2730049,
+        "accuracy": 0.5272,
+        "auc_score": 0.5334608447907567,
+        "training_session": 57
+      },
+      {
+        "timestamp": "2025-10-29T12:17:19.317800",
+        "samples_added": 50000,
+        "total_samples": 2780049,
+        "accuracy": 0.49878,
+        "auc_score": 0.4958000486324018,
+        "training_session": 58
+      },
+      {
+        "timestamp": "2025-10-29T12:17:19.883049",
+        "samples_added": 50000,
+        "total_samples": 2830049,
+        "accuracy": 0.4996,
+        "auc_score": 0.4918609698968632,
+        "training_session": 59
+      },
+      {
+        "timestamp": "2025-10-29T12:17:20.473188",
+        "samples_added": 50000,
+        "total_samples": 2880049,
+        "accuracy": 0.50612,
+        "auc_score": 0.5057990352126638,
+        "training_session": 60
+      },
+      {
+        "timestamp": "2025-10-29T12:17:21.020923",
+        "samples_added": 50000,
+        "total_samples": 2930049,
+        "accuracy": 0.50886,
+        "auc_score": 0.5176298140395967,
+        "training_session": 61
+      },
+      {
+        "timestamp": "2025-10-29T12:17:21.525436",
+        "samples_added": 50000,
+        "total_samples": 2980049,
+        "accuracy": 0.5224,
+        "auc_score": 0.5295041029327715,
+        "training_session": 62
+      },
+      {
+        "timestamp": "2025-10-29T12:17:22.000043",
+        "samples_added": 50000,
+        "total_samples": 3030049,
+        "accuracy": 0.5136,
+        "auc_score": 0.5197252912315604,
+        "training_session": 63
+      },
+      {
+        "timestamp": "2025-10-29T12:17:22.529725",
+        "samples_added": 50000,
+        "total_samples": 3080049,
+        "accuracy": 0.51674,
+        "auc_score": 0.5217034209775515,
+        "training_session": 64
+      },
+      {
+        "timestamp": "2025-10-29T12:17:23.439352",
+        "samples_added": 50000,
+        "total_samples": 3130049,
+        "accuracy": 0.51596,
+        "auc_score": 0.529099144284342,
+        "training_session": 65
+      },
+      {
+        "timestamp": "2025-10-29T12:17:24.387739",
+        "samples_added": 50000,
+        "total_samples": 3180049,
+        "accuracy": 0.51882,
+        "auc_score": 0.5188854198104158,
+        "training_session": 66
+      },
+      {
+        "timestamp": "2025-10-29T12:17:24.924193",
+        "samples_added": 50000,
+        "total_samples": 3230049,
+        "accuracy": 0.5146,
+        "auc_score": 0.5198711134227276,
+        "training_session": 67
+      },
+      {
+        "timestamp": "2025-10-29T12:17:25.447240",
+        "samples_added": 50000,
+        "total_samples": 3280049,
+        "accuracy": 0.52212,
+        "auc_score": 0.5271640162672894,
+        "training_session": 68
+      },
+      {
+        "timestamp": "2025-10-29T12:17:25.972944",
+        "samples_added": 50000,
+        "total_samples": 3330049,
+        "accuracy": 0.51144,
+        "auc_score": 0.5243371739211578,
+        "training_session": 69
+      },
+      {
+        "timestamp": "2025-10-29T12:17:26.439514",
+        "samples_added": 50000,
+        "total_samples": 3380049,
+        "accuracy": 0.54672,
+        "auc_score": 0.5517918508646424,
+        "training_session": 70
+      },
+      {
+        "timestamp": "2025-10-29T12:17:26.924433",
+        "samples_added": 50000,
+        "total_samples": 3430049,
+        "accuracy": 0.52834,
+        "auc_score": 0.5356756624663471,
+        "training_session": 71
+      },
+      {
+        "timestamp": "2025-10-29T12:17:27.388964",
+        "samples_added": 50000,
+        "total_samples": 3480049,
+        "accuracy": 0.52558,
+        "auc_score": 0.5421434094819702,
+        "training_session": 72
+      },
+      {
+        "timestamp": "2025-10-29T12:17:27.868856",
+        "samples_added": 50000,
+        "total_samples": 3530049,
+        "accuracy": 0.52216,
+        "auc_score": 0.5257035652532835,
+        "training_session": 73
+      },
+      {
+        "timestamp": "2025-10-29T12:17:28.234027",
+        "samples_added": 33685,
+        "total_samples": 3563734,
+        "accuracy": 0.5023007273267033,
+        "auc_score": 0.5063909690942761,
+        "training_session": 74
+      },
+      {
+        "timestamp": "2025-10-30T10:11:23.926757",
+        "samples_added": 1129179,
+        "total_samples": 4692913,
+        "accuracy": 0.9160505110350087,
+        "auc_score": 0.9452797795438371,
+        "training_session": 75
+      }
+    ],
+    "feature_importance_history": []
+  },
+  "signal": {
+    "total_samples_seen": 3563734,
+    "training_sessions": 74,
+    "last_trained": "2025-10-29T12:17:55.399429",
+    "performance_history": [
+      {
+        "timestamp": "2025-10-23T14:38:47.648142",
+        "samples_added": 37772,
+        "total_samples": 37772,
+        "accuracy": null,
+        "auc_score": null,
+        "training_session": 1,
+        "note": "Migrated from batch model (estimated)"
+      },
+      {
+        "timestamp": "2025-10-23T14:48:48.552344",
+        "samples_added": 37772,
+        "total_samples": 75544,
+        "accuracy": 0.6388065233506302,
+        "auc_score": null,
+        "training_session": 2
+      },
+      {
+        "timestamp": "2025-10-23T14:55:02.409283",
+        "samples_added": 37772,
+        "total_samples": 113316,
+        "accuracy": 0.6207508207137562,
+        "auc_score": null,
+        "training_session": 3
+      },
+      {
+        "timestamp": "2025-10-26T12:25:00.353752",
+        "samples_added": 37772,
+        "total_samples": 151088,
+        "accuracy": 0.6474637297469025,
+        "auc_score": null,
+        "training_session": 4
+      },
+      {
+        "timestamp": "2025-10-29T10:31:14.993186",
+        "samples_added": 50000,
+        "total_samples": 201088,
+        "accuracy": 0.84884,
+        "auc_score": null,
+        "training_session": 5
+      },
+      {
+        "timestamp": "2025-10-29T10:31:15.486022",
+        "samples_added": 50000,
+        "total_samples": 251088,
+        "accuracy": 0.8514,
+        "auc_score": null,
+        "training_session": 6
+      },
+      {
+        "timestamp": "2025-10-29T10:31:15.763225",
+        "samples_added": 22640,
+        "total_samples": 273728,
+        "accuracy": 0.8920053003533569,
+        "auc_score": null,
+        "training_session": 7
+      },
+      {
+        "timestamp": "2025-10-29T10:31:48.190609",
+        "samples_added": 50000,
+        "total_samples": 323728,
+        "accuracy": 0.84884,
+        "auc_score": null,
+        "training_session": 8
+      },
+      {
+        "timestamp": "2025-10-29T10:31:48.907998",
+        "samples_added": 50000,
+        "total_samples": 373728,
+        "accuracy": 0.85048,
+        "auc_score": null,
+        "training_session": 9
+      },
+      {
+        "timestamp": "2025-10-29T10:31:49.201359",
+        "samples_added": 22640,
+        "total_samples": 396368,
+        "accuracy": 0.892535335689046,
+        "auc_score": null,
+        "training_session": 10
+      },
+      {
+        "timestamp": "2025-10-29T10:47:31.947530",
+        "samples_added": 50000,
+        "total_samples": 446368,
+        "accuracy": 0.7648,
+        "auc_score": null,
+        "training_session": 11
+      },
+      {
+        "timestamp": "2025-10-29T10:47:32.554248",
+        "samples_added": 50000,
+        "total_samples": 496368,
+        "accuracy": 0.8096,
+        "auc_score": null,
+        "training_session": 12
+      },
+      {
+        "timestamp": "2025-10-29T10:47:33.122824",
+        "samples_added": 50000,
+        "total_samples": 546368,
+        "accuracy": 0.6564,
+        "auc_score": null,
+        "training_session": 13
+      },
+      {
+        "timestamp": "2025-10-29T10:47:33.587418",
+        "samples_added": 50000,
+        "total_samples": 596368,
+        "accuracy": 0.83426,
+        "auc_score": null,
+        "training_session": 14
+      },
+      {
+        "timestamp": "2025-10-29T10:47:34.092307",
+        "samples_added": 50000,
+        "total_samples": 646368,
+        "accuracy": 0.70454,
+        "auc_score": null,
+        "training_session": 15
+      },
+      {
+        "timestamp": "2025-10-29T10:47:34.621216",
+        "samples_added": 50000,
+        "total_samples": 696368,
+        "accuracy": 0.7746,
+        "auc_score": null,
+        "training_session": 16
+      },
+      {
+        "timestamp": "2025-10-29T10:47:35.171807",
+        "samples_added": 50000,
+        "total_samples": 746368,
+        "accuracy": 0.72646,
+        "auc_score": null,
+        "training_session": 17
+      },
+      {
+        "timestamp": "2025-10-29T10:47:35.733946",
+        "samples_added": 50000,
+        "total_samples": 796368,
+        "accuracy": 0.7924,
+        "auc_score": null,
+        "training_session": 18
+      },
+      {
+        "timestamp": "2025-10-29T10:47:36.247797",
+        "samples_added": 50000,
+        "total_samples": 846368,
+        "accuracy": 0.73952,
+        "auc_score": null,
+        "training_session": 19
+      },
+      {
+        "timestamp": "2025-10-29T10:47:36.743279",
+        "samples_added": 50000,
+        "total_samples": 896368,
+        "accuracy": 0.90892,
+        "auc_score": null,
+        "training_session": 20
+      },
+      {
+        "timestamp": "2025-10-29T10:47:37.295908",
+        "samples_added": 50000,
+        "total_samples": 946368,
+        "accuracy": 0.9278,
+        "auc_score": null,
+        "training_session": 21
+      },
+      {
+        "timestamp": "2025-10-29T10:47:37.740824",
+        "samples_added": 50000,
+        "total_samples": 996368,
+        "accuracy": 0.8944,
+        "auc_score": null,
+        "training_session": 22
+      },
+      {
+        "timestamp": "2025-10-29T10:47:38.154018",
+        "samples_added": 50000,
+        "total_samples": 1046368,
+        "accuracy": 0.9544,
+        "auc_score": null,
+        "training_session": 23
+      },
+      {
+        "timestamp": "2025-10-29T10:47:38.530951",
+        "samples_added": 50000,
+        "total_samples": 1096368,
+        "accuracy": 0.83906,
+        "auc_score": null,
+        "training_session": 24
+      },
+      {
+        "timestamp": "2025-10-29T10:47:38.925485",
+        "samples_added": 50000,
+        "total_samples": 1146368,
+        "accuracy": 0.71826,
+        "auc_score": null,
+        "training_session": 25
+      },
+      {
+        "timestamp": "2025-10-29T10:47:39.357514",
+        "samples_added": 50000,
+        "total_samples": 1196368,
+        "accuracy": 0.8174,
+        "auc_score": null,
+        "training_session": 26
+      },
+      {
+        "timestamp": "2025-10-29T10:47:39.898180",
+        "samples_added": 50000,
+        "total_samples": 1246368,
+        "accuracy": 0.8258,
+        "auc_score": null,
+        "training_session": 27
+      },
+      {
+        "timestamp": "2025-10-29T10:47:40.365955",
+        "samples_added": 50000,
+        "total_samples": 1296368,
+        "accuracy": 0.8692,
+        "auc_score": null,
+        "training_session": 28
+      },
+      {
+        "timestamp": "2025-10-29T10:47:40.751997",
+        "samples_added": 50000,
+        "total_samples": 1346368,
+        "accuracy": 0.582,
+        "auc_score": null,
+        "training_session": 29
+      },
+      {
+        "timestamp": "2025-10-29T10:47:41.130538",
+        "samples_added": 50000,
+        "total_samples": 1396368,
+        "accuracy": 0.81826,
+        "auc_score": null,
+        "training_session": 30
+      },
+      {
+        "timestamp": "2025-10-29T10:47:41.551854",
+        "samples_added": 50000,
+        "total_samples": 1446368,
+        "accuracy": 0.75186,
+        "auc_score": null,
+        "training_session": 31
+      },
+      {
+        "timestamp": "2025-10-29T10:47:41.948145",
+        "samples_added": 50000,
+        "total_samples": 1496368,
+        "accuracy": 0.76136,
+        "auc_score": null,
+        "training_session": 32
+      },
+      {
+        "timestamp": "2025-10-29T10:47:42.378562",
+        "samples_added": 50000,
+        "total_samples": 1546368,
+        "accuracy": 0.48918,
+        "auc_score": null,
+        "training_session": 33
+      },
+      {
+        "timestamp": "2025-10-29T10:47:42.770597",
+        "samples_added": 50000,
+        "total_samples": 1596368,
+        "accuracy": 0.675,
+        "auc_score": null,
+        "training_session": 34
+      },
+      {
+        "timestamp": "2025-10-29T10:47:43.148002",
+        "samples_added": 50000,
+        "total_samples": 1646368,
+        "accuracy": 0.878,
+        "auc_score": null,
+        "training_session": 35
+      },
+      {
+        "timestamp": "2025-10-29T10:47:43.561386",
+        "samples_added": 50000,
+        "total_samples": 1696368,
+        "accuracy": 0.71,
+        "auc_score": null,
+        "training_session": 36
+      },
+      {
+        "timestamp": "2025-10-29T10:47:43.949840",
+        "samples_added": 50000,
+        "total_samples": 1746368,
+        "accuracy": 0.8284,
+        "auc_score": null,
+        "training_session": 37
+      },
+      {
+        "timestamp": "2025-10-29T10:47:44.343110",
+        "samples_added": 50000,
+        "total_samples": 1796368,
+        "accuracy": 0.84446,
+        "auc_score": null,
+        "training_session": 38
+      },
+      {
+        "timestamp": "2025-10-29T10:47:44.797748",
+        "samples_added": 50000,
+        "total_samples": 1846368,
+        "accuracy": 0.934,
+        "auc_score": null,
+        "training_session": 39
+      },
+      {
+        "timestamp": "2025-10-29T10:47:45.172804",
+        "samples_added": 50000,
+        "total_samples": 1896368,
+        "accuracy": 0.7574,
+        "auc_score": null,
+        "training_session": 40
+      },
+      {
+        "timestamp": "2025-10-29T10:47:45.576003",
+        "samples_added": 50000,
+        "total_samples": 1946368,
+        "accuracy": 0.83824,
+        "auc_score": null,
+        "training_session": 41
+      },
+      {
+        "timestamp": "2025-10-29T10:47:45.897169",
+        "samples_added": 33681,
+        "total_samples": 1980049,
+        "accuracy": 0.6469819779697752,
+        "auc_score": null,
+        "training_session": 42
+      },
+      {
+        "timestamp": "2025-10-29T12:17:38.068915",
+        "samples_added": 50000,
+        "total_samples": 2030049,
+        "accuracy": 0.6346,
+        "auc_score": null,
+        "training_session": 43
+      },
+      {
+        "timestamp": "2025-10-29T12:17:38.647932",
+        "samples_added": 50000,
+        "total_samples": 2080049,
+        "accuracy": 0.7281,
+        "auc_score": null,
+        "training_session": 44
+      },
+      {
+        "timestamp": "2025-10-29T12:17:39.136795",
+        "samples_added": 50000,
+        "total_samples": 2130049,
+        "accuracy": 0.6827,
+        "auc_score": null,
+        "training_session": 45
+      },
+      {
+        "timestamp": "2025-10-29T12:17:39.750757",
+        "samples_added": 50000,
+        "total_samples": 2180049,
+        "accuracy": 0.7341,
+        "auc_score": null,
+        "training_session": 46
+      },
+      {
+        "timestamp": "2025-10-29T12:17:40.256589",
+        "samples_added": 50000,
+        "total_samples": 2230049,
+        "accuracy": 0.81074,
+        "auc_score": null,
+        "training_session": 47
+      },
+      {
+        "timestamp": "2025-10-29T12:17:40.775111",
+        "samples_added": 50000,
+        "total_samples": 2280049,
+        "accuracy": 0.80306,
+        "auc_score": null,
+        "training_session": 48
+      },
+      {
+        "timestamp": "2025-10-29T12:17:41.322305",
+        "samples_added": 50000,
+        "total_samples": 2330049,
+        "accuracy": 0.7798,
+        "auc_score": null,
+        "training_session": 49
+      },
+      {
+        "timestamp": "2025-10-29T12:17:41.827806",
+        "samples_added": 50000,
+        "total_samples": 2380049,
+        "accuracy": 0.79728,
+        "auc_score": null,
+        "training_session": 50
+      },
+      {
+        "timestamp": "2025-10-29T12:17:42.349654",
+        "samples_added": 50000,
+        "total_samples": 2430049,
+        "accuracy": 0.86986,
+        "auc_score": null,
+        "training_session": 51
+      },
+      {
+        "timestamp": "2025-10-29T12:17:42.876822",
+        "samples_added": 50000,
+        "total_samples": 2480049,
+        "accuracy": 0.8868,
+        "auc_score": null,
+        "training_session": 52
+      },
+      {
+        "timestamp": "2025-10-29T12:17:43.402673",
+        "samples_added": 50000,
+        "total_samples": 2530049,
+        "accuracy": 0.9576,
+        "auc_score": null,
+        "training_session": 53
+      },
+      {
+        "timestamp": "2025-10-29T12:17:43.924465",
+        "samples_added": 50000,
+        "total_samples": 2580049,
+        "accuracy": 0.8516,
+        "auc_score": null,
+        "training_session": 54
+      },
+      {
+        "timestamp": "2025-10-29T12:17:44.664464",
+        "samples_added": 50000,
+        "total_samples": 2630049,
+        "accuracy": 0.9306,
+        "auc_score": null,
+        "training_session": 55
+      },
+      {
+        "timestamp": "2025-10-29T12:17:45.166582",
+        "samples_added": 50000,
+        "total_samples": 2680049,
+        "accuracy": 0.87888,
+        "auc_score": null,
+        "training_session": 56
+      },
+      {
+        "timestamp": "2025-10-29T12:17:45.696310",
+        "samples_added": 50000,
+        "total_samples": 2730049,
+        "accuracy": 0.67614,
+        "auc_score": null,
+        "training_session": 57
+      },
+      {
+        "timestamp": "2025-10-29T12:17:46.172913",
+        "samples_added": 50000,
+        "total_samples": 2780049,
+        "accuracy": 0.65782,
+        "auc_score": null,
+        "training_session": 58
+      },
+      {
+        "timestamp": "2025-10-29T12:17:46.657062",
+        "samples_added": 50000,
+        "total_samples": 2830049,
+        "accuracy": 0.87932,
+        "auc_score": null,
+        "training_session": 59
+      },
+      {
+        "timestamp": "2025-10-29T12:17:47.139593",
+        "samples_added": 50000,
+        "total_samples": 2880049,
+        "accuracy": 0.83144,
+        "auc_score": null,
+        "training_session": 60
+      },
+      {
+        "timestamp": "2025-10-29T12:17:47.586412",
+        "samples_added": 50000,
+        "total_samples": 2930049,
+        "accuracy": 0.6553,
+        "auc_score": null,
+        "training_session": 61
+      },
+      {
+        "timestamp": "2025-10-29T12:17:48.060894",
+        "samples_added": 50000,
+        "total_samples": 2980049,
+        "accuracy": 0.83786,
+        "auc_score": null,
+        "training_session": 62
+      },
+      {
+        "timestamp": "2025-10-29T12:17:48.504157",
+        "samples_added": 50000,
+        "total_samples": 3030049,
+        "accuracy": 0.75354,
+        "auc_score": null,
+        "training_session": 63
+      },
+      {
+        "timestamp": "2025-10-29T12:17:48.994005",
+        "samples_added": 50000,
+        "total_samples": 3080049,
+        "accuracy": 0.702,
+        "auc_score": null,
+        "training_session": 64
+      },
+      {
+        "timestamp": "2025-10-29T12:17:49.438921",
+        "samples_added": 50000,
+        "total_samples": 3130049,
+        "accuracy": 0.77704,
+        "auc_score": null,
+        "training_session": 65
+      },
+      {
+        "timestamp": "2025-10-29T12:17:49.908058",
+        "samples_added": 50000,
+        "total_samples": 3180049,
+        "accuracy": 0.71462,
+        "auc_score": null,
+        "training_session": 66
+      },
+      {
+        "timestamp": "2025-10-29T12:17:50.762576",
+        "samples_added": 50000,
+        "total_samples": 3230049,
+        "accuracy": 0.66258,
+        "auc_score": null,
+        "training_session": 67
+      },
+      {
+        "timestamp": "2025-10-29T12:17:51.761172",
+        "samples_added": 50000,
+        "total_samples": 3280049,
+        "accuracy": 0.80176,
+        "auc_score": null,
+        "training_session": 68
+      },
+      {
+        "timestamp": "2025-10-29T12:17:52.852592",
+        "samples_added": 50000,
+        "total_samples": 3330049,
+        "accuracy": 0.8664,
+        "auc_score": null,
+        "training_session": 69
+      },
+      {
+        "timestamp": "2025-10-29T12:17:53.429625",
+        "samples_added": 50000,
+        "total_samples": 3380049,
+        "accuracy": 0.76678,
+        "auc_score": null,
+        "training_session": 70
+      },
+      {
+        "timestamp": "2025-10-29T12:17:53.994330",
+        "samples_added": 50000,
+        "total_samples": 3430049,
+        "accuracy": 0.93726,
+        "auc_score": null,
+        "training_session": 71
+      },
+      {
+        "timestamp": "2025-10-29T12:17:54.531147",
+        "samples_added": 50000,
+        "total_samples": 3480049,
+        "accuracy": 0.8588,
+        "auc_score": null,
+        "training_session": 72
+      },
+      {
+        "timestamp": "2025-10-29T12:17:55.016838",
+        "samples_added": 50000,
+        "total_samples": 3530049,
+        "accuracy": 0.8203,
+        "auc_score": null,
+        "training_session": 73
+      },
+      {
+        "timestamp": "2025-10-29T12:17:55.399429",
+        "samples_added": 33685,
+        "total_samples": 3563734,
+        "accuracy": 0.8496363366483598,
+        "auc_score": null,
+        "training_session": 74
+      }
+    ],
+    "feature_importance_history": []
+  },
+  "regime": {
+    "total_samples_seen": 3591094,
+    "training_sessions": 74,
+    "last_trained": "2025-10-29T12:18:26.070213",
+    "performance_history": [
+      {
+        "timestamp": "2025-10-23T14:38:47.651659",
+        "samples_added": 37772,
+        "total_samples": 37772,
+        "accuracy": null,
+        "auc_score": null,
+        "training_session": 1,
+        "note": "Migrated from batch model (estimated)"
+      },
+      {
+        "timestamp": "2025-10-23T14:48:55.198345",
+        "samples_added": 37772,
+        "total_samples": 75544,
+        "accuracy": 0.6125436831515408,
+        "auc_score": null,
+        "training_session": 2
+      },
+      {
+        "timestamp": "2025-10-23T14:55:04.289262",
+        "samples_added": 37772,
+        "total_samples": 113316,
+        "accuracy": 0.6662871968654029,
+        "auc_score": null,
+        "training_session": 3
+      },
+      {
+        "timestamp": "2025-10-26T12:25:03.758308",
+        "samples_added": 37772,
+        "total_samples": 151088,
+        "accuracy": 0.6453722334004024,
+        "auc_score": null,
+        "training_session": 4
+      },
+      {
+        "timestamp": "2025-10-29T10:32:45.812488",
+        "samples_added": 50000,
+        "total_samples": 201088,
+        "accuracy": 0.41632,
+        "auc_score": null,
+        "training_session": 5
+      },
+      {
+        "timestamp": "2025-10-29T10:32:46.260267",
+        "samples_added": 50000,
+        "total_samples": 251088,
+        "accuracy": 0.47374,
+        "auc_score": null,
+        "training_session": 6
+      },
+      {
+        "timestamp": "2025-10-29T10:32:46.544894",
+        "samples_added": 22640,
+        "total_samples": 273728,
+        "accuracy": 0.4683745583038869,
+        "auc_score": null,
+        "training_session": 7
+      },
+      {
+        "timestamp": "2025-10-29T10:38:56.501115",
+        "samples_added": 50000,
+        "total_samples": 323728,
+        "accuracy": 0.53552,
+        "auc_score": null,
+        "training_session": 8
+      },
+      {
+        "timestamp": "2025-10-29T10:38:57.026459",
+        "samples_added": 50000,
+        "total_samples": 373728,
+        "accuracy": 0.5054,
+        "auc_score": null,
+        "training_session": 9
+      },
+      {
+        "timestamp": "2025-10-29T10:38:57.574931",
+        "samples_added": 50000,
+        "total_samples": 423728,
+        "accuracy": 0.51938,
+        "auc_score": null,
+        "training_session": 10
+      },
+      {
+        "timestamp": "2025-10-29T10:47:58.408867",
+        "samples_added": 50000,
+        "total_samples": 473728,
+        "accuracy": 0.59114,
+        "auc_score": null,
+        "training_session": 11
+      },
+      {
+        "timestamp": "2025-10-29T10:47:59.157178",
+        "samples_added": 50000,
+        "total_samples": 523728,
+        "accuracy": 0.5686,
+        "auc_score": null,
+        "training_session": 12
+      },
+      {
+        "timestamp": "2025-10-29T10:47:59.748082",
+        "samples_added": 50000,
+        "total_samples": 573728,
+        "accuracy": 0.56346,
+        "auc_score": null,
+        "training_session": 13
+      },
+      {
+        "timestamp": "2025-10-29T10:48:00.465544",
+        "samples_added": 50000,
+        "total_samples": 623728,
+        "accuracy": 0.58154,
+        "auc_score": null,
+        "training_session": 14
+      },
+      {
+        "timestamp": "2025-10-29T10:48:01.212899",
+        "samples_added": 50000,
+        "total_samples": 673728,
+        "accuracy": 0.59018,
+        "auc_score": null,
+        "training_session": 15
+      },
+      {
+        "timestamp": "2025-10-29T10:48:01.819053",
+        "samples_added": 50000,
+        "total_samples": 723728,
+        "accuracy": 0.6436,
+        "auc_score": null,
+        "training_session": 16
+      },
+      {
+        "timestamp": "2025-10-29T10:48:02.280013",
+        "samples_added": 50000,
+        "total_samples": 773728,
+        "accuracy": 0.55182,
+        "auc_score": null,
+        "training_session": 17
+      },
+      {
+        "timestamp": "2025-10-29T10:48:02.783223",
+        "samples_added": 50000,
+        "total_samples": 823728,
+        "accuracy": 0.5922,
+        "auc_score": null,
+        "training_session": 18
+      },
+      {
+        "timestamp": "2025-10-29T10:48:03.253345",
+        "samples_added": 50000,
+        "total_samples": 873728,
+        "accuracy": 0.59292,
+        "auc_score": null,
+        "training_session": 19
+      },
+      {
+        "timestamp": "2025-10-29T10:48:03.744048",
+        "samples_added": 50000,
+        "total_samples": 923728,
+        "accuracy": 0.59104,
+        "auc_score": null,
+        "training_session": 20
+      },
+      {
+        "timestamp": "2025-10-29T10:48:04.185161",
+        "samples_added": 50000,
+        "total_samples": 973728,
+        "accuracy": 0.59354,
+        "auc_score": null,
+        "training_session": 21
+      },
+      {
+        "timestamp": "2025-10-29T10:48:04.683043",
+        "samples_added": 50000,
+        "total_samples": 1023728,
+        "accuracy": 0.50232,
+        "auc_score": null,
+        "training_session": 22
+      },
+      {
+        "timestamp": "2025-10-29T10:48:05.227650",
+        "samples_added": 50000,
+        "total_samples": 1073728,
+        "accuracy": 0.5412,
+        "auc_score": null,
+        "training_session": 23
+      },
+      {
+        "timestamp": "2025-10-29T10:48:05.714728",
+        "samples_added": 50000,
+        "total_samples": 1123728,
+        "accuracy": 0.58856,
+        "auc_score": null,
+        "training_session": 24
+      },
+      {
+        "timestamp": "2025-10-29T10:48:06.245376",
+        "samples_added": 50000,
+        "total_samples": 1173728,
+        "accuracy": 0.6664,
+        "auc_score": null,
+        "training_session": 25
+      },
+      {
+        "timestamp": "2025-10-29T10:48:06.703744",
+        "samples_added": 50000,
+        "total_samples": 1223728,
+        "accuracy": 0.5468,
+        "auc_score": null,
+        "training_session": 26
+      },
+      {
+        "timestamp": "2025-10-29T10:48:07.268536",
+        "samples_added": 50000,
+        "total_samples": 1273728,
+        "accuracy": 0.55674,
+        "auc_score": null,
+        "training_session": 27
+      },
+      {
+        "timestamp": "2025-10-29T10:48:07.725095",
+        "samples_added": 50000,
+        "total_samples": 1323728,
+        "accuracy": 0.51072,
+        "auc_score": null,
+        "training_session": 28
+      },
+      {
+        "timestamp": "2025-10-29T10:48:08.163685",
+        "samples_added": 50000,
+        "total_samples": 1373728,
+        "accuracy": 0.64986,
+        "auc_score": null,
+        "training_session": 29
+      },
+      {
+        "timestamp": "2025-10-29T10:48:08.662118",
+        "samples_added": 50000,
+        "total_samples": 1423728,
+        "accuracy": 0.68406,
+        "auc_score": null,
+        "training_session": 30
+      },
+      {
+        "timestamp": "2025-10-29T10:48:09.081416",
+        "samples_added": 50000,
+        "total_samples": 1473728,
+        "accuracy": 0.61338,
+        "auc_score": null,
+        "training_session": 31
+      },
+      {
+        "timestamp": "2025-10-29T10:48:09.608924",
+        "samples_added": 50000,
+        "total_samples": 1523728,
+        "accuracy": 0.65744,
+        "auc_score": null,
+        "training_session": 32
+      },
+      {
+        "timestamp": "2025-10-29T10:48:10.109875",
+        "samples_added": 50000,
+        "total_samples": 1573728,
+        "accuracy": 0.62408,
+        "auc_score": null,
+        "training_session": 33
+      },
+      {
+        "timestamp": "2025-10-29T10:48:10.579225",
+        "samples_added": 50000,
+        "total_samples": 1623728,
+        "accuracy": 0.6456,
+        "auc_score": null,
+        "training_session": 34
+      },
+      {
+        "timestamp": "2025-10-29T10:48:11.006987",
+        "samples_added": 50000,
+        "total_samples": 1673728,
+        "accuracy": 0.68398,
+        "auc_score": null,
+        "training_session": 35
+      },
+      {
+        "timestamp": "2025-10-29T10:48:11.413629",
+        "samples_added": 50000,
+        "total_samples": 1723728,
+        "accuracy": 0.6906,
+        "auc_score": null,
+        "training_session": 36
+      },
+      {
+        "timestamp": "2025-10-29T10:48:11.859894",
+        "samples_added": 50000,
+        "total_samples": 1773728,
+        "accuracy": 0.65412,
+        "auc_score": null,
+        "training_session": 37
+      },
+      {
+        "timestamp": "2025-10-29T10:48:12.272428",
+        "samples_added": 50000,
+        "total_samples": 1823728,
+        "accuracy": 0.61592,
+        "auc_score": null,
+        "training_session": 38
+      },
+      {
+        "timestamp": "2025-10-29T10:48:12.680177",
+        "samples_added": 50000,
+        "total_samples": 1873728,
+        "accuracy": 0.6406,
+        "auc_score": null,
+        "training_session": 39
+      },
+      {
+        "timestamp": "2025-10-29T10:48:13.114596",
+        "samples_added": 50000,
+        "total_samples": 1923728,
+        "accuracy": 0.63706,
+        "auc_score": null,
+        "training_session": 40
+      },
+      {
+        "timestamp": "2025-10-29T10:48:13.619517",
+        "samples_added": 50000,
+        "total_samples": 1973728,
+        "accuracy": 0.68924,
+        "auc_score": null,
+        "training_session": 41
+      },
+      {
+        "timestamp": "2025-10-29T10:48:14.060954",
+        "samples_added": 33681,
+        "total_samples": 2007409,
+        "accuracy": 0.6947834090436745,
+        "auc_score": null,
+        "training_session": 42
+      },
+      {
+        "timestamp": "2025-10-29T12:18:06.257131",
+        "samples_added": 50000,
+        "total_samples": 2057409,
+        "accuracy": 0.6954,
+        "auc_score": null,
+        "training_session": 43
+      },
+      {
+        "timestamp": "2025-10-29T12:18:06.979824",
+        "samples_added": 50000,
+        "total_samples": 2107409,
+        "accuracy": 0.7476,
+        "auc_score": null,
+        "training_session": 44
+      },
+      {
+        "timestamp": "2025-10-29T12:18:08.124932",
+        "samples_added": 50000,
+        "total_samples": 2157409,
+        "accuracy": 0.64776,
+        "auc_score": null,
+        "training_session": 45
+      },
+      {
+        "timestamp": "2025-10-29T12:18:09.408442",
+        "samples_added": 50000,
+        "total_samples": 2207409,
+        "accuracy": 0.719,
+        "auc_score": null,
+        "training_session": 46
+      },
+      {
+        "timestamp": "2025-10-29T12:18:10.475798",
+        "samples_added": 50000,
+        "total_samples": 2257409,
+        "accuracy": 0.59312,
+        "auc_score": null,
+        "training_session": 47
+      },
+      {
+        "timestamp": "2025-10-29T12:18:11.145748",
+        "samples_added": 50000,
+        "total_samples": 2307409,
+        "accuracy": 0.7414,
+        "auc_score": null,
+        "training_session": 48
+      },
+      {
+        "timestamp": "2025-10-29T12:18:11.754159",
+        "samples_added": 50000,
+        "total_samples": 2357409,
+        "accuracy": 0.67986,
+        "auc_score": null,
+        "training_session": 49
+      },
+      {
+        "timestamp": "2025-10-29T12:18:12.357847",
+        "samples_added": 50000,
+        "total_samples": 2407409,
+        "accuracy": 0.675,
+        "auc_score": null,
+        "training_session": 50
+      },
+      {
+        "timestamp": "2025-10-29T12:18:12.933072",
+        "samples_added": 50000,
+        "total_samples": 2457409,
+        "accuracy": 0.6962,
+        "auc_score": null,
+        "training_session": 51
+      },
+      {
+        "timestamp": "2025-10-29T12:18:13.667690",
+        "samples_added": 50000,
+        "total_samples": 2507409,
+        "accuracy": 0.70054,
+        "auc_score": null,
+        "training_session": 52
+      },
+      {
+        "timestamp": "2025-10-29T12:18:14.247258",
+        "samples_added": 50000,
+        "total_samples": 2557409,
+        "accuracy": 0.6874,
+        "auc_score": null,
+        "training_session": 53
+      },
+      {
+        "timestamp": "2025-10-29T12:18:14.809113",
+        "samples_added": 50000,
+        "total_samples": 2607409,
+        "accuracy": 0.56818,
+        "auc_score": null,
+        "training_session": 54
+      },
+      {
+        "timestamp": "2025-10-29T12:18:15.331573",
+        "samples_added": 50000,
+        "total_samples": 2657409,
+        "accuracy": 0.57656,
+        "auc_score": null,
+        "training_session": 55
+      },
+      {
+        "timestamp": "2025-10-29T12:18:15.896206",
+        "samples_added": 50000,
+        "total_samples": 2707409,
+        "accuracy": 0.60608,
+        "auc_score": null,
+        "training_session": 56
+      },
+      {
+        "timestamp": "2025-10-29T12:18:16.476506",
+        "samples_added": 50000,
+        "total_samples": 2757409,
+        "accuracy": 0.75078,
+        "auc_score": null,
+        "training_session": 57
+      },
+      {
+        "timestamp": "2025-10-29T12:18:17.003823",
+        "samples_added": 50000,
+        "total_samples": 2807409,
+        "accuracy": 0.55626,
+        "auc_score": null,
+        "training_session": 58
+      },
+      {
+        "timestamp": "2025-10-29T12:18:17.670997",
+        "samples_added": 50000,
+        "total_samples": 2857409,
+        "accuracy": 0.53274,
+        "auc_score": null,
+        "training_session": 59
+      },
+      {
+        "timestamp": "2025-10-29T12:18:18.407586",
+        "samples_added": 50000,
+        "total_samples": 2907409,
+        "accuracy": 0.52522,
+        "auc_score": null,
+        "training_session": 60
+      },
+      {
+        "timestamp": "2025-10-29T12:18:19.042075",
+        "samples_added": 50000,
+        "total_samples": 2957409,
+        "accuracy": 0.65094,
+        "auc_score": null,
+        "training_session": 61
+      },
+      {
+        "timestamp": "2025-10-29T12:18:19.613272",
+        "samples_added": 50000,
+        "total_samples": 3007409,
+        "accuracy": 0.7142,
+        "auc_score": null,
+        "training_session": 62
+      },
+      {
+        "timestamp": "2025-10-29T12:18:20.242811",
+        "samples_added": 50000,
+        "total_samples": 3057409,
+        "accuracy": 0.60094,
+        "auc_score": null,
+        "training_session": 63
+      },
+      {
+        "timestamp": "2025-10-29T12:18:20.852324",
+        "samples_added": 50000,
+        "total_samples": 3107409,
+        "accuracy": 0.67308,
+        "auc_score": null,
+        "training_session": 64
+      },
+      {
+        "timestamp": "2025-10-29T12:18:21.402731",
+        "samples_added": 50000,
+        "total_samples": 3157409,
+        "accuracy": 0.6203,
+        "auc_score": null,
+        "training_session": 65
+      },
+      {
+        "timestamp": "2025-10-29T12:18:21.924177",
+        "samples_added": 50000,
+        "total_samples": 3207409,
+        "accuracy": 0.66426,
+        "auc_score": null,
+        "training_session": 66
+      },
+      {
+        "timestamp": "2025-10-29T12:18:22.458643",
+        "samples_added": 50000,
+        "total_samples": 3257409,
+        "accuracy": 0.70118,
+        "auc_score": null,
+        "training_session": 67
+      },
+      {
+        "timestamp": "2025-10-29T12:18:23.034999",
+        "samples_added": 50000,
+        "total_samples": 3307409,
+        "accuracy": 0.69588,
+        "auc_score": null,
+        "training_session": 68
+      },
+      {
+        "timestamp": "2025-10-29T12:18:23.552329",
+        "samples_added": 50000,
+        "total_samples": 3357409,
+        "accuracy": 0.70332,
+        "auc_score": null,
+        "training_session": 69
+      },
+      {
+        "timestamp": "2025-10-29T12:18:24.086454",
+        "samples_added": 50000,
+        "total_samples": 3407409,
+        "accuracy": 0.61482,
+        "auc_score": null,
+        "training_session": 70
+      },
+      {
+        "timestamp": "2025-10-29T12:18:24.608421",
+        "samples_added": 50000,
+        "total_samples": 3457409,
+        "accuracy": 0.679,
+        "auc_score": null,
+        "training_session": 71
+      },
+      {
+        "timestamp": "2025-10-29T12:18:25.120840",
+        "samples_added": 50000,
+        "total_samples": 3507409,
+        "accuracy": 0.6205,
+        "auc_score": null,
+        "training_session": 72
+      },
+      {
+        "timestamp": "2025-10-29T12:18:25.670360",
+        "samples_added": 50000,
+        "total_samples": 3557409,
+        "accuracy": 0.7205,
+        "auc_score": null,
+        "training_session": 73
+      },
+      {
+        "timestamp": "2025-10-29T12:18:26.070213",
+        "samples_added": 33685,
+        "total_samples": 3591094,
+        "accuracy": 0.71678788778388,
+        "auc_score": null,
+        "training_session": 74
+      }
+    ],
+    "feature_importance_history": []
+  }
+}

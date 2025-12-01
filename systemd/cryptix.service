@@ -1,0 +1,33 @@
+[Unit]
+Description=CRYPTIX Trading Bot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=opc
+WorkingDirectory=/home/opc/cryptix
+Environment=PYTHONUNBUFFERED=1
+Environment=ORACLE_VM=true
+EnvironmentFile=/home/opc/cryptix/.env
+
+# Launch command
+ExecStart=/home/opc/cryptix/venv/bin/python oracle_launcher.py
+
+# Restart configuration
+Restart=always
+RestartSec=10
+
+# Resource limits
+MemoryHigh=20G
+MemoryMax=22G
+CPUQuota=90%
+
+# Security
+NoNewPrivileges=yes
+ProtectSystem=full
+ProtectHome=read-only
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

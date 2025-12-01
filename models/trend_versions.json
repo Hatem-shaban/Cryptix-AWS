@@ -1,0 +1,830 @@
+{
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2025-10-23T14:38:47.646025",
+      "samples_added": 37772,
+      "total_samples": 37772,
+      "metrics": {
+        "accuracy": null,
+        "note": "Baseline from batch model"
+      },
+      "model_path": "models/trend_v1.pkl"
+    },
+    {
+      "version": 2,
+      "timestamp": "2025-10-23T14:48:46.713784",
+      "samples_added": 37772,
+      "total_samples": 75544,
+      "metrics": {
+        "accuracy": 0.49867626813512655,
+        "auc_score": 0.5001504884990501
+      },
+      "model_path": "models/trend_v2.pkl"
+    },
+    {
+      "version": 3,
+      "timestamp": "2025-10-23T14:54:59.990368",
+      "samples_added": 37772,
+      "total_samples": 113316,
+      "metrics": {
+        "accuracy": 0.5027004130043419,
+        "auc_score": 0.49760525778153203
+      },
+      "model_path": "models/trend_v3.pkl"
+    },
+    {
+      "version": 4,
+      "timestamp": "2025-10-26T12:24:55.536922",
+      "samples_added": 37772,
+      "total_samples": 151088,
+      "metrics": {
+        "accuracy": 0.503441702848671,
+        "auc_score": 0.5050894452351811
+      },
+      "model_path": "models/trend_v4.pkl"
+    },
+    {
+      "version": 5,
+      "timestamp": "2025-10-29T10:31:13.419054",
+      "samples_added": 50000,
+      "total_samples": 201088,
+      "metrics": {
+        "accuracy": 0.49668,
+        "auc_score": 0.4929823985667422
+      },
+      "model_path": "models/trend_v5.pkl"
+    },
+    {
+      "version": 6,
+      "timestamp": "2025-10-29T10:31:14.004644",
+      "samples_added": 50000,
+      "total_samples": 251088,
+      "metrics": {
+        "accuracy": 0.4923,
+        "auc_score": 0.49017284251820337
+      },
+      "model_path": "models/trend_v6.pkl"
+    },
+    {
+      "version": 7,
+      "timestamp": "2025-10-29T10:31:14.269279",
+      "samples_added": 22640,
+      "total_samples": 273728,
+      "metrics": {
+        "accuracy": 0.5011484098939929,
+        "auc_score": 0.4968148829424802
+      },
+      "model_path": "models/trend_v7.pkl"
+    },
+    {
+      "version": 8,
+      "timestamp": "2025-10-29T10:31:46.537125",
+      "samples_added": 50000,
+      "total_samples": 323728,
+      "metrics": {
+        "accuracy": 0.49232,
+        "auc_score": 0.4877525340638933
+      },
+      "model_path": "models/trend_v8.pkl"
+    },
+    {
+      "version": 9,
+      "timestamp": "2025-10-29T10:31:47.111153",
+      "samples_added": 50000,
+      "total_samples": 373728,
+      "metrics": {
+        "accuracy": 0.49296,
+        "auc_score": 0.49001930887005524
+      },
+      "model_path": "models/trend_v9.pkl"
+    },
+    {
+      "version": 10,
+      "timestamp": "2025-10-29T10:31:47.456549",
+      "samples_added": 22640,
+      "total_samples": 396368,
+      "metrics": {
+        "accuracy": 0.503047703180212,
+        "auc_score": 0.4962378999435706
+      },
+      "model_path": "models/trend_v10.pkl"
+    },
+    {
+      "version": 11,
+      "timestamp": "2025-10-29T10:47:05.623836",
+      "samples_added": 50000,
+      "total_samples": 446368,
+      "metrics": {
+        "accuracy": 0.49066,
+        "auc_score": 0.4886878709070141
+      },
+      "model_path": "models/trend_v11.pkl"
+    },
+    {
+      "version": 12,
+      "timestamp": "2025-10-29T10:47:06.182582",
+      "samples_added": 50000,
+      "total_samples": 496368,
+      "metrics": {
+        "accuracy": 0.50154,
+        "auc_score": 0.5015495847763214
+      },
+      "model_path": "models/trend_v12.pkl"
+    },
+    {
+      "version": 13,
+      "timestamp": "2025-10-29T10:47:06.753598",
+      "samples_added": 50000,
+      "total_samples": 546368,
+      "metrics": {
+        "accuracy": 0.48216,
+        "auc_score": 0.4783389438544522
+      },
+      "model_path": "models/trend_v13.pkl"
+    },
+    {
+      "version": 14,
+      "timestamp": "2025-10-29T10:47:07.350447",
+      "samples_added": 50000,
+      "total_samples": 596368,
+      "metrics": {
+        "accuracy": 0.48454,
+        "auc_score": 0.4797456860237027
+      },
+      "model_path": "models/trend_v14.pkl"
+    },
+    {
+      "version": 15,
+      "timestamp": "2025-10-29T10:47:07.950567",
+      "samples_added": 50000,
+      "total_samples": 646368,
+      "metrics": {
+        "accuracy": 0.49646,
+        "auc_score": 0.4987890360050249
+      },
+      "model_path": "models/trend_v15.pkl"
+    },
+    {
+      "version": 16,
+      "timestamp": "2025-10-29T10:47:08.479292",
+      "samples_added": 50000,
+      "total_samples": 696368,
+      "metrics": {
+        "accuracy": 0.51834,
+        "auc_score": 0.5237193233777968
+      },
+      "model_path": "models/trend_v16.pkl"
+    },
+    {
+      "version": 17,
+      "timestamp": "2025-10-29T10:47:09.012910",
+      "samples_added": 50000,
+      "total_samples": 746368,
+      "metrics": {
+        "accuracy": 0.49954,
+        "auc_score": 0.5044817309606642
+      },
+      "model_path": "models/trend_v17.pkl"
+    },
+    {
+      "version": 18,
+      "timestamp": "2025-10-29T10:47:09.538500",
+      "samples_added": 50000,
+      "total_samples": 796368,
+      "metrics": {
+        "accuracy": 0.5224,
+        "auc_score": 0.531785668545082
+      },
+      "model_path": "models/trend_v18.pkl"
+    },
+    {
+      "version": 19,
+      "timestamp": "2025-10-29T10:47:09.991704",
+      "samples_added": 50000,
+      "total_samples": 846368,
+      "metrics": {
+        "accuracy": 0.50946,
+        "auc_score": 0.5078357549324224
+      },
+      "model_path": "models/trend_v19.pkl"
+    },
+    {
+      "version": 20,
+      "timestamp": "2025-10-29T10:47:10.457347",
+      "samples_added": 50000,
+      "total_samples": 896368,
+      "metrics": {
+        "accuracy": 0.531,
+        "auc_score": 0.5429755435976654
+      },
+      "model_path": "models/trend_v20.pkl"
+    },
+    {
+      "version": 21,
+      "timestamp": "2025-10-29T10:47:10.894400",
+      "samples_added": 50000,
+      "total_samples": 946368,
+      "metrics": {
+        "accuracy": 0.517,
+        "auc_score": 0.5174055075476577
+      },
+      "model_path": "models/trend_v21.pkl"
+    },
+    {
+      "version": 22,
+      "timestamp": "2025-10-29T10:47:11.348479",
+      "samples_added": 50000,
+      "total_samples": 996368,
+      "metrics": {
+        "accuracy": 0.51602,
+        "auc_score": 0.5210222402486894
+      },
+      "model_path": "models/trend_v22.pkl"
+    },
+    {
+      "version": 23,
+      "timestamp": "2025-10-29T10:47:11.813749",
+      "samples_added": 50000,
+      "total_samples": 1046368,
+      "metrics": {
+        "accuracy": 0.51314,
+        "auc_score": 0.5156297502531733
+      },
+      "model_path": "models/trend_v23.pkl"
+    },
+    {
+      "version": 24,
+      "timestamp": "2025-10-29T10:47:12.275238",
+      "samples_added": 50000,
+      "total_samples": 1096368,
+      "metrics": {
+        "accuracy": 0.50108,
+        "auc_score": 0.5047509288601572
+      },
+      "model_path": "models/trend_v24.pkl"
+    },
+    {
+      "version": 25,
+      "timestamp": "2025-10-29T10:47:12.868663",
+      "samples_added": 50000,
+      "total_samples": 1146368,
+      "metrics": {
+        "accuracy": 0.52426,
+        "auc_score": 0.528583696343117
+      },
+      "model_path": "models/trend_v25.pkl"
+    },
+    {
+      "version": 26,
+      "timestamp": "2025-10-29T10:47:13.439002",
+      "samples_added": 50000,
+      "total_samples": 1196368,
+      "metrics": {
+        "accuracy": 0.5042,
+        "auc_score": 0.5008975543568741
+      },
+      "model_path": "models/trend_v26.pkl"
+    },
+    {
+      "version": 27,
+      "timestamp": "2025-10-29T10:47:14.008766",
+      "samples_added": 50000,
+      "total_samples": 1246368,
+      "metrics": {
+        "accuracy": 0.49686,
+        "auc_score": 0.4906747942823171
+      },
+      "model_path": "models/trend_v27.pkl"
+    },
+    {
+      "version": 28,
+      "timestamp": "2025-10-29T10:47:14.831643",
+      "samples_added": 50000,
+      "total_samples": 1296368,
+      "metrics": {
+        "accuracy": 0.50448,
+        "auc_score": 0.5002687158207266
+      },
+      "model_path": "models/trend_v28.pkl"
+    },
+    {
+      "version": 29,
+      "timestamp": "2025-10-29T10:47:15.450143",
+      "samples_added": 50000,
+      "total_samples": 1346368,
+      "metrics": {
+        "accuracy": 0.5012,
+        "auc_score": 0.5105748845758721
+      },
+      "model_path": "models/trend_v29.pkl"
+    },
+    {
+      "version": 30,
+      "timestamp": "2025-10-29T10:47:15.997930",
+      "samples_added": 50000,
+      "total_samples": 1396368,
+      "metrics": {
+        "accuracy": 0.5194,
+        "auc_score": 0.5250143999707673
+      },
+      "model_path": "models/trend_v30.pkl"
+    },
+    {
+      "version": 31,
+      "timestamp": "2025-10-29T10:47:16.460923",
+      "samples_added": 50000,
+      "total_samples": 1446368,
+      "metrics": {
+        "accuracy": 0.51594,
+        "auc_score": 0.5208465244007598
+      },
+      "model_path": "models/trend_v31.pkl"
+    },
+    {
+      "version": 32,
+      "timestamp": "2025-10-29T10:47:16.933506",
+      "samples_added": 50000,
+      "total_samples": 1496368,
+      "metrics": {
+        "accuracy": 0.51124,
+        "auc_score": 0.5129201655628133
+      },
+      "model_path": "models/trend_v32.pkl"
+    },
+    {
+      "version": 33,
+      "timestamp": "2025-10-29T10:47:17.440216",
+      "samples_added": 50000,
+      "total_samples": 1546368,
+      "metrics": {
+        "accuracy": 0.51074,
+        "auc_score": 0.5240679442274979
+      },
+      "model_path": "models/trend_v33.pkl"
+    },
+    {
+      "version": 34,
+      "timestamp": "2025-10-29T10:47:17.930641",
+      "samples_added": 50000,
+      "total_samples": 1596368,
+      "metrics": {
+        "accuracy": 0.49276,
+        "auc_score": 0.4941439707985795
+      },
+      "model_path": "models/trend_v34.pkl"
+    },
+    {
+      "version": 35,
+      "timestamp": "2025-10-29T10:47:18.509981",
+      "samples_added": 50000,
+      "total_samples": 1646368,
+      "metrics": {
+        "accuracy": 0.50538,
+        "auc_score": 0.5112801980250886
+      },
+      "model_path": "models/trend_v35.pkl"
+    },
+    {
+      "version": 36,
+      "timestamp": "2025-10-29T10:47:19.021961",
+      "samples_added": 50000,
+      "total_samples": 1696368,
+      "metrics": {
+        "accuracy": 0.50756,
+        "auc_score": 0.5093598777363008
+      },
+      "model_path": "models/trend_v36.pkl"
+    },
+    {
+      "version": 37,
+      "timestamp": "2025-10-29T10:47:19.477521",
+      "samples_added": 50000,
+      "total_samples": 1746368,
+      "metrics": {
+        "accuracy": 0.52024,
+        "auc_score": 0.5293366139041519
+      },
+      "model_path": "models/trend_v37.pkl"
+    },
+    {
+      "version": 38,
+      "timestamp": "2025-10-29T10:47:19.901170",
+      "samples_added": 50000,
+      "total_samples": 1796368,
+      "metrics": {
+        "accuracy": 0.54688,
+        "auc_score": 0.5549327581557104
+      },
+      "model_path": "models/trend_v38.pkl"
+    },
+    {
+      "version": 39,
+      "timestamp": "2025-10-29T10:47:20.374447",
+      "samples_added": 50000,
+      "total_samples": 1846368,
+      "metrics": {
+        "accuracy": 0.52926,
+        "auc_score": 0.543034908502321
+      },
+      "model_path": "models/trend_v39.pkl"
+    },
+    {
+      "version": 40,
+      "timestamp": "2025-10-29T10:47:20.863328",
+      "samples_added": 50000,
+      "total_samples": 1896368,
+      "metrics": {
+        "accuracy": 0.53132,
+        "auc_score": 0.5469213420272104
+      },
+      "model_path": "models/trend_v40.pkl"
+    },
+    {
+      "version": 41,
+      "timestamp": "2025-10-29T10:47:21.329133",
+      "samples_added": 50000,
+      "total_samples": 1946368,
+      "metrics": {
+        "accuracy": 0.52764,
+        "auc_score": 0.5359504857520777
+      },
+      "model_path": "models/trend_v41.pkl"
+    },
+    {
+      "version": 42,
+      "timestamp": "2025-10-29T10:47:21.642940",
+      "samples_added": 33681,
+      "total_samples": 1980049,
+      "metrics": {
+        "accuracy": 0.490721771918886,
+        "auc_score": 0.49105930773886186
+      },
+      "model_path": "models/trend_v42.pkl"
+    },
+    {
+      "version": 43,
+      "timestamp": "2025-10-29T12:17:09.492623",
+      "samples_added": 50000,
+      "total_samples": 2030049,
+      "metrics": {
+        "accuracy": 0.4956,
+        "auc_score": 0.5172388588163279
+      },
+      "model_path": "models/trend_v43.pkl"
+    },
+    {
+      "version": 44,
+      "timestamp": "2025-10-29T12:17:10.219531",
+      "samples_added": 50000,
+      "total_samples": 2080049,
+      "metrics": {
+        "accuracy": 0.4984,
+        "auc_score": 0.50483241972761
+      },
+      "model_path": "models/trend_v44.pkl"
+    },
+    {
+      "version": 45,
+      "timestamp": "2025-10-29T12:17:10.818914",
+      "samples_added": 50000,
+      "total_samples": 2130049,
+      "metrics": {
+        "accuracy": 0.51646,
+        "auc_score": 0.5209527984661689
+      },
+      "model_path": "models/trend_v45.pkl"
+    },
+    {
+      "version": 46,
+      "timestamp": "2025-10-29T12:17:11.446764",
+      "samples_added": 50000,
+      "total_samples": 2180049,
+      "metrics": {
+        "accuracy": 0.5074,
+        "auc_score": 0.5110822320004661
+      },
+      "model_path": "models/trend_v46.pkl"
+    },
+    {
+      "version": 47,
+      "timestamp": "2025-10-29T12:17:12.059527",
+      "samples_added": 50000,
+      "total_samples": 2230049,
+      "metrics": {
+        "accuracy": 0.50556,
+        "auc_score": 0.5052053304929043
+      },
+      "model_path": "models/trend_v47.pkl"
+    },
+    {
+      "version": 48,
+      "timestamp": "2025-10-29T12:17:12.656884",
+      "samples_added": 50000,
+      "total_samples": 2280049,
+      "metrics": {
+        "accuracy": 0.5206,
+        "auc_score": 0.536763427857698
+      },
+      "model_path": "models/trend_v48.pkl"
+    },
+    {
+      "version": 49,
+      "timestamp": "2025-10-29T12:17:13.294013",
+      "samples_added": 50000,
+      "total_samples": 2330049,
+      "metrics": {
+        "accuracy": 0.51816,
+        "auc_score": 0.521947680081803
+      },
+      "model_path": "models/trend_v49.pkl"
+    },
+    {
+      "version": 50,
+      "timestamp": "2025-10-29T12:17:14.041075",
+      "samples_added": 50000,
+      "total_samples": 2380049,
+      "metrics": {
+        "accuracy": 0.52326,
+        "auc_score": 0.5276739122463666
+      },
+      "model_path": "models/trend_v50.pkl"
+    },
+    {
+      "version": 51,
+      "timestamp": "2025-10-29T12:17:14.711677",
+      "samples_added": 50000,
+      "total_samples": 2430049,
+      "metrics": {
+        "accuracy": 0.50554,
+        "auc_score": 0.5073820255280641
+      },
+      "model_path": "models/trend_v51.pkl"
+    },
+    {
+      "version": 52,
+      "timestamp": "2025-10-29T12:17:15.588951",
+      "samples_added": 50000,
+      "total_samples": 2480049,
+      "metrics": {
+        "accuracy": 0.53328,
+        "auc_score": 0.5385795790821644
+      },
+      "model_path": "models/trend_v52.pkl"
+    },
+    {
+      "version": 53,
+      "timestamp": "2025-10-29T12:17:16.150444",
+      "samples_added": 50000,
+      "total_samples": 2530049,
+      "metrics": {
+        "accuracy": 0.5162,
+        "auc_score": 0.516145185718184
+      },
+      "model_path": "models/trend_v53.pkl"
+    },
+    {
+      "version": 54,
+      "timestamp": "2025-10-29T12:17:16.766390",
+      "samples_added": 50000,
+      "total_samples": 2580049,
+      "metrics": {
+        "accuracy": 0.51302,
+        "auc_score": 0.5148225830832567
+      },
+      "model_path": "models/trend_v54.pkl"
+    },
+    {
+      "version": 55,
+      "timestamp": "2025-10-29T12:17:17.600662",
+      "samples_added": 50000,
+      "total_samples": 2630049,
+      "metrics": {
+        "accuracy": 0.5068,
+        "auc_score": 0.5047851129339057
+      },
+      "model_path": "models/trend_v55.pkl"
+    },
+    {
+      "version": 56,
+      "timestamp": "2025-10-29T12:17:18.202620",
+      "samples_added": 50000,
+      "total_samples": 2680049,
+      "metrics": {
+        "accuracy": 0.5069,
+        "auc_score": 0.501472300410237
+      },
+      "model_path": "models/trend_v56.pkl"
+    },
+    {
+      "version": 57,
+      "timestamp": "2025-10-29T12:17:18.767652",
+      "samples_added": 50000,
+      "total_samples": 2730049,
+      "metrics": {
+        "accuracy": 0.5272,
+        "auc_score": 0.5334608447907567
+      },
+      "model_path": "models/trend_v57.pkl"
+    },
+    {
+      "version": 58,
+      "timestamp": "2025-10-29T12:17:19.329430",
+      "samples_added": 50000,
+      "total_samples": 2780049,
+      "metrics": {
+        "accuracy": 0.49878,
+        "auc_score": 0.4958000486324018
+      },
+      "model_path": "models/trend_v58.pkl"
+    },
+    {
+      "version": 59,
+      "timestamp": "2025-10-29T12:17:19.897472",
+      "samples_added": 50000,
+      "total_samples": 2830049,
+      "metrics": {
+        "accuracy": 0.4996,
+        "auc_score": 0.4918609698968632
+      },
+      "model_path": "models/trend_v59.pkl"
+    },
+    {
+      "version": 60,
+      "timestamp": "2025-10-29T12:17:20.485704",
+      "samples_added": 50000,
+      "total_samples": 2880049,
+      "metrics": {
+        "accuracy": 0.50612,
+        "auc_score": 0.5057990352126638
+      },
+      "model_path": "models/trend_v60.pkl"
+    },
+    {
+      "version": 61,
+      "timestamp": "2025-10-29T12:17:21.032450",
+      "samples_added": 50000,
+      "total_samples": 2930049,
+      "metrics": {
+        "accuracy": 0.50886,
+        "auc_score": 0.5176298140395967
+      },
+      "model_path": "models/trend_v61.pkl"
+    },
+    {
+      "version": 62,
+      "timestamp": "2025-10-29T12:17:21.536608",
+      "samples_added": 50000,
+      "total_samples": 2980049,
+      "metrics": {
+        "accuracy": 0.5224,
+        "auc_score": 0.5295041029327715
+      },
+      "model_path": "models/trend_v62.pkl"
+    },
+    {
+      "version": 63,
+      "timestamp": "2025-10-29T12:17:22.015435",
+      "samples_added": 50000,
+      "total_samples": 3030049,
+      "metrics": {
+        "accuracy": 0.5136,
+        "auc_score": 0.5197252912315604
+      },
+      "model_path": "models/trend_v63.pkl"
+    },
+    {
+      "version": 64,
+      "timestamp": "2025-10-29T12:17:22.541027",
+      "samples_added": 50000,
+      "total_samples": 3080049,
+      "metrics": {
+        "accuracy": 0.51674,
+        "auc_score": 0.5217034209775515
+      },
+      "model_path": "models/trend_v64.pkl"
+    },
+    {
+      "version": 65,
+      "timestamp": "2025-10-29T12:17:23.461753",
+      "samples_added": 50000,
+      "total_samples": 3130049,
+      "metrics": {
+        "accuracy": 0.51596,
+        "auc_score": 0.529099144284342
+      },
+      "model_path": "models/trend_v65.pkl"
+    },
+    {
+      "version": 66,
+      "timestamp": "2025-10-29T12:17:24.400615",
+      "samples_added": 50000,
+      "total_samples": 3180049,
+      "metrics": {
+        "accuracy": 0.51882,
+        "auc_score": 0.5188854198104158
+      },
+      "model_path": "models/trend_v66.pkl"
+    },
+    {
+      "version": 67,
+      "timestamp": "2025-10-29T12:17:24.938122",
+      "samples_added": 50000,
+      "total_samples": 3230049,
+      "metrics": {
+        "accuracy": 0.5146,
+        "auc_score": 0.5198711134227276
+      },
+      "model_path": "models/trend_v67.pkl"
+    },
+    {
+      "version": 68,
+      "timestamp": "2025-10-29T12:17:25.461301",
+      "samples_added": 50000,
+      "total_samples": 3280049,
+      "metrics": {
+        "accuracy": 0.52212,
+        "auc_score": 0.5271640162672894
+      },
+      "model_path": "models/trend_v68.pkl"
+    },
+    {
+      "version": 69,
+      "timestamp": "2025-10-29T12:17:25.986338",
+      "samples_added": 50000,
+      "total_samples": 3330049,
+      "metrics": {
+        "accuracy": 0.51144,
+        "auc_score": 0.5243371739211578
+      },
+      "model_path": "models/trend_v69.pkl"
+    },
+    {
+      "version": 70,
+      "timestamp": "2025-10-29T12:17:26.450983",
+      "samples_added": 50000,
+      "total_samples": 3380049,
+      "metrics": {
+        "accuracy": 0.54672,
+        "auc_score": 0.5517918508646424
+      },
+      "model_path": "models/trend_v70.pkl"
+    },
+    {
+      "version": 71,
+      "timestamp": "2025-10-29T12:17:26.937053",
+      "samples_added": 50000,
+      "total_samples": 3430049,
+      "metrics": {
+        "accuracy": 0.52834,
+        "auc_score": 0.5356756624663471
+      },
+      "model_path": "models/trend_v71.pkl"
+    },
+    {
+      "version": 72,
+      "timestamp": "2025-10-29T12:17:27.400081",
+      "samples_added": 50000,
+      "total_samples": 3480049,
+      "metrics": {
+        "accuracy": 0.52558,
+        "auc_score": 0.5421434094819702
+      },
+      "model_path": "models/trend_v72.pkl"
+    },
+    {
+      "version": 73,
+      "timestamp": "2025-10-29T12:17:27.882540",
+      "samples_added": 50000,
+      "total_samples": 3530049,
+      "metrics": {
+        "accuracy": 0.52216,
+        "auc_score": 0.5257035652532835
+      },
+      "model_path": "models/trend_v73.pkl"
+    },
+    {
+      "version": 74,
+      "timestamp": "2025-10-29T12:17:28.246551",
+      "samples_added": 33685,
+      "total_samples": 3563734,
+      "metrics": {
+        "accuracy": 0.5023007273267033,
+        "auc_score": 0.5063909690942761
+      },
+      "model_path": "models/trend_v74.pkl"
+    },
+    {
+      "version": 75,
+      "timestamp": "2025-10-30T10:11:23.944942",
+      "samples_added": 1129179,
+      "total_samples": 4692913,
+      "metrics": {
+        "accuracy": 0.9160505110350087,
+        "auc_score": 0.9452797795438371
+      },
+      "model_path": "models/trend_v75.pkl"
+    }
+  ],
+  "current_version": 75
+}

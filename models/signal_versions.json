@@ -1,0 +1,819 @@
+{
+  "versions": [
+    {
+      "version": 1,
+      "timestamp": "2025-10-23T14:38:47.649202",
+      "samples_added": 37772,
+      "total_samples": 37772,
+      "metrics": {
+        "accuracy": null,
+        "note": "Baseline from batch model"
+      },
+      "model_path": "models/signal_v1.pkl"
+    },
+    {
+      "version": 2,
+      "timestamp": "2025-10-23T14:48:48.556767",
+      "samples_added": 37772,
+      "total_samples": 75544,
+      "metrics": {
+        "accuracy": 0.6388065233506302,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v2.pkl"
+    },
+    {
+      "version": 3,
+      "timestamp": "2025-10-23T14:55:02.414979",
+      "samples_added": 37772,
+      "total_samples": 113316,
+      "metrics": {
+        "accuracy": 0.6207508207137562,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v3.pkl"
+    },
+    {
+      "version": 4,
+      "timestamp": "2025-10-26T12:25:00.365360",
+      "samples_added": 37772,
+      "total_samples": 151088,
+      "metrics": {
+        "accuracy": 0.6474637297469025,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v4.pkl"
+    },
+    {
+      "version": 5,
+      "timestamp": "2025-10-29T10:31:15.000575",
+      "samples_added": 50000,
+      "total_samples": 201088,
+      "metrics": {
+        "accuracy": 0.84884,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v5.pkl"
+    },
+    {
+      "version": 6,
+      "timestamp": "2025-10-29T10:31:15.490855",
+      "samples_added": 50000,
+      "total_samples": 251088,
+      "metrics": {
+        "accuracy": 0.8514,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v6.pkl"
+    },
+    {
+      "version": 7,
+      "timestamp": "2025-10-29T10:31:15.768450",
+      "samples_added": 22640,
+      "total_samples": 273728,
+      "metrics": {
+        "accuracy": 0.8920053003533569,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v7.pkl"
+    },
+    {
+      "version": 8,
+      "timestamp": "2025-10-29T10:31:48.198974",
+      "samples_added": 50000,
+      "total_samples": 323728,
+      "metrics": {
+        "accuracy": 0.84884,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v8.pkl"
+    },
+    {
+      "version": 9,
+      "timestamp": "2025-10-29T10:31:48.915693",
+      "samples_added": 50000,
+      "total_samples": 373728,
+      "metrics": {
+        "accuracy": 0.85048,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v9.pkl"
+    },
+    {
+      "version": 10,
+      "timestamp": "2025-10-29T10:31:49.205634",
+      "samples_added": 22640,
+      "total_samples": 396368,
+      "metrics": {
+        "accuracy": 0.892535335689046,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v10.pkl"
+    },
+    {
+      "version": 11,
+      "timestamp": "2025-10-29T10:47:31.991252",
+      "samples_added": 50000,
+      "total_samples": 446368,
+      "metrics": {
+        "accuracy": 0.7648,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v11.pkl"
+    },
+    {
+      "version": 12,
+      "timestamp": "2025-10-29T10:47:32.562729",
+      "samples_added": 50000,
+      "total_samples": 496368,
+      "metrics": {
+        "accuracy": 0.8096,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v12.pkl"
+    },
+    {
+      "version": 13,
+      "timestamp": "2025-10-29T10:47:33.133779",
+      "samples_added": 50000,
+      "total_samples": 546368,
+      "metrics": {
+        "accuracy": 0.6564,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v13.pkl"
+    },
+    {
+      "version": 14,
+      "timestamp": "2025-10-29T10:47:33.598808",
+      "samples_added": 50000,
+      "total_samples": 596368,
+      "metrics": {
+        "accuracy": 0.83426,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v14.pkl"
+    },
+    {
+      "version": 15,
+      "timestamp": "2025-10-29T10:47:34.099082",
+      "samples_added": 50000,
+      "total_samples": 646368,
+      "metrics": {
+        "accuracy": 0.70454,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v15.pkl"
+    },
+    {
+      "version": 16,
+      "timestamp": "2025-10-29T10:47:34.633629",
+      "samples_added": 50000,
+      "total_samples": 696368,
+      "metrics": {
+        "accuracy": 0.7746,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v16.pkl"
+    },
+    {
+      "version": 17,
+      "timestamp": "2025-10-29T10:47:35.180134",
+      "samples_added": 50000,
+      "total_samples": 746368,
+      "metrics": {
+        "accuracy": 0.72646,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v17.pkl"
+    },
+    {
+      "version": 18,
+      "timestamp": "2025-10-29T10:47:35.743223",
+      "samples_added": 50000,
+      "total_samples": 796368,
+      "metrics": {
+        "accuracy": 0.7924,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v18.pkl"
+    },
+    {
+      "version": 19,
+      "timestamp": "2025-10-29T10:47:36.257472",
+      "samples_added": 50000,
+      "total_samples": 846368,
+      "metrics": {
+        "accuracy": 0.73952,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v19.pkl"
+    },
+    {
+      "version": 20,
+      "timestamp": "2025-10-29T10:47:36.752959",
+      "samples_added": 50000,
+      "total_samples": 896368,
+      "metrics": {
+        "accuracy": 0.90892,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v20.pkl"
+    },
+    {
+      "version": 21,
+      "timestamp": "2025-10-29T10:47:37.306234",
+      "samples_added": 50000,
+      "total_samples": 946368,
+      "metrics": {
+        "accuracy": 0.9278,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v21.pkl"
+    },
+    {
+      "version": 22,
+      "timestamp": "2025-10-29T10:47:37.754950",
+      "samples_added": 50000,
+      "total_samples": 996368,
+      "metrics": {
+        "accuracy": 0.8944,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v22.pkl"
+    },
+    {
+      "version": 23,
+      "timestamp": "2025-10-29T10:47:38.160376",
+      "samples_added": 50000,
+      "total_samples": 1046368,
+      "metrics": {
+        "accuracy": 0.9544,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v23.pkl"
+    },
+    {
+      "version": 24,
+      "timestamp": "2025-10-29T10:47:38.539248",
+      "samples_added": 50000,
+      "total_samples": 1096368,
+      "metrics": {
+        "accuracy": 0.83906,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v24.pkl"
+    },
+    {
+      "version": 25,
+      "timestamp": "2025-10-29T10:47:38.932465",
+      "samples_added": 50000,
+      "total_samples": 1146368,
+      "metrics": {
+        "accuracy": 0.71826,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v25.pkl"
+    },
+    {
+      "version": 26,
+      "timestamp": "2025-10-29T10:47:39.375914",
+      "samples_added": 50000,
+      "total_samples": 1196368,
+      "metrics": {
+        "accuracy": 0.8174,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v26.pkl"
+    },
+    {
+      "version": 27,
+      "timestamp": "2025-10-29T10:47:39.909195",
+      "samples_added": 50000,
+      "total_samples": 1246368,
+      "metrics": {
+        "accuracy": 0.8258,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v27.pkl"
+    },
+    {
+      "version": 28,
+      "timestamp": "2025-10-29T10:47:40.373184",
+      "samples_added": 50000,
+      "total_samples": 1296368,
+      "metrics": {
+        "accuracy": 0.8692,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v28.pkl"
+    },
+    {
+      "version": 29,
+      "timestamp": "2025-10-29T10:47:40.760381",
+      "samples_added": 50000,
+      "total_samples": 1346368,
+      "metrics": {
+        "accuracy": 0.582,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v29.pkl"
+    },
+    {
+      "version": 30,
+      "timestamp": "2025-10-29T10:47:41.140486",
+      "samples_added": 50000,
+      "total_samples": 1396368,
+      "metrics": {
+        "accuracy": 0.81826,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v30.pkl"
+    },
+    {
+      "version": 31,
+      "timestamp": "2025-10-29T10:47:41.559028",
+      "samples_added": 50000,
+      "total_samples": 1446368,
+      "metrics": {
+        "accuracy": 0.75186,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v31.pkl"
+    },
+    {
+      "version": 32,
+      "timestamp": "2025-10-29T10:47:41.954363",
+      "samples_added": 50000,
+      "total_samples": 1496368,
+      "metrics": {
+        "accuracy": 0.76136,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v32.pkl"
+    },
+    {
+      "version": 33,
+      "timestamp": "2025-10-29T10:47:42.385632",
+      "samples_added": 50000,
+      "total_samples": 1546368,
+      "metrics": {
+        "accuracy": 0.48918,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v33.pkl"
+    },
+    {
+      "version": 34,
+      "timestamp": "2025-10-29T10:47:42.780513",
+      "samples_added": 50000,
+      "total_samples": 1596368,
+      "metrics": {
+        "accuracy": 0.675,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v34.pkl"
+    },
+    {
+      "version": 35,
+      "timestamp": "2025-10-29T10:47:43.155672",
+      "samples_added": 50000,
+      "total_samples": 1646368,
+      "metrics": {
+        "accuracy": 0.878,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v35.pkl"
+    },
+    {
+      "version": 36,
+      "timestamp": "2025-10-29T10:47:43.568388",
+      "samples_added": 50000,
+      "total_samples": 1696368,
+      "metrics": {
+        "accuracy": 0.71,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v36.pkl"
+    },
+    {
+      "version": 37,
+      "timestamp": "2025-10-29T10:47:43.956626",
+      "samples_added": 50000,
+      "total_samples": 1746368,
+      "metrics": {
+        "accuracy": 0.8284,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v37.pkl"
+    },
+    {
+      "version": 38,
+      "timestamp": "2025-10-29T10:47:44.350073",
+      "samples_added": 50000,
+      "total_samples": 1796368,
+      "metrics": {
+        "accuracy": 0.84446,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v38.pkl"
+    },
+    {
+      "version": 39,
+      "timestamp": "2025-10-29T10:47:44.806901",
+      "samples_added": 50000,
+      "total_samples": 1846368,
+      "metrics": {
+        "accuracy": 0.934,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v39.pkl"
+    },
+    {
+      "version": 40,
+      "timestamp": "2025-10-29T10:47:45.179919",
+      "samples_added": 50000,
+      "total_samples": 1896368,
+      "metrics": {
+        "accuracy": 0.7574,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v40.pkl"
+    },
+    {
+      "version": 41,
+      "timestamp": "2025-10-29T10:47:45.583265",
+      "samples_added": 50000,
+      "total_samples": 1946368,
+      "metrics": {
+        "accuracy": 0.83824,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v41.pkl"
+    },
+    {
+      "version": 42,
+      "timestamp": "2025-10-29T10:47:45.904345",
+      "samples_added": 33681,
+      "total_samples": 1980049,
+      "metrics": {
+        "accuracy": 0.6469819779697752,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v42.pkl"
+    },
+    {
+      "version": 43,
+      "timestamp": "2025-10-29T12:17:38.101618",
+      "samples_added": 50000,
+      "total_samples": 2030049,
+      "metrics": {
+        "accuracy": 0.6346,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v43.pkl"
+    },
+    {
+      "version": 44,
+      "timestamp": "2025-10-29T12:17:38.660991",
+      "samples_added": 50000,
+      "total_samples": 2080049,
+      "metrics": {
+        "accuracy": 0.7281,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v44.pkl"
+    },
+    {
+      "version": 45,
+      "timestamp": "2025-10-29T12:17:39.149317",
+      "samples_added": 50000,
+      "total_samples": 2130049,
+      "metrics": {
+        "accuracy": 0.6827,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v45.pkl"
+    },
+    {
+      "version": 46,
+      "timestamp": "2025-10-29T12:17:39.762301",
+      "samples_added": 50000,
+      "total_samples": 2180049,
+      "metrics": {
+        "accuracy": 0.7341,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v46.pkl"
+    },
+    {
+      "version": 47,
+      "timestamp": "2025-10-29T12:17:40.268789",
+      "samples_added": 50000,
+      "total_samples": 2230049,
+      "metrics": {
+        "accuracy": 0.81074,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v47.pkl"
+    },
+    {
+      "version": 48,
+      "timestamp": "2025-10-29T12:17:40.788128",
+      "samples_added": 50000,
+      "total_samples": 2280049,
+      "metrics": {
+        "accuracy": 0.80306,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v48.pkl"
+    },
+    {
+      "version": 49,
+      "timestamp": "2025-10-29T12:17:41.335668",
+      "samples_added": 50000,
+      "total_samples": 2330049,
+      "metrics": {
+        "accuracy": 0.7798,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v49.pkl"
+    },
+    {
+      "version": 50,
+      "timestamp": "2025-10-29T12:17:41.840490",
+      "samples_added": 50000,
+      "total_samples": 2380049,
+      "metrics": {
+        "accuracy": 0.79728,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v50.pkl"
+    },
+    {
+      "version": 51,
+      "timestamp": "2025-10-29T12:17:42.363061",
+      "samples_added": 50000,
+      "total_samples": 2430049,
+      "metrics": {
+        "accuracy": 0.86986,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v51.pkl"
+    },
+    {
+      "version": 52,
+      "timestamp": "2025-10-29T12:17:42.888786",
+      "samples_added": 50000,
+      "total_samples": 2480049,
+      "metrics": {
+        "accuracy": 0.8868,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v52.pkl"
+    },
+    {
+      "version": 53,
+      "timestamp": "2025-10-29T12:17:43.418636",
+      "samples_added": 50000,
+      "total_samples": 2530049,
+      "metrics": {
+        "accuracy": 0.9576,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v53.pkl"
+    },
+    {
+      "version": 54,
+      "timestamp": "2025-10-29T12:17:43.938292",
+      "samples_added": 50000,
+      "total_samples": 2580049,
+      "metrics": {
+        "accuracy": 0.8516,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v54.pkl"
+    },
+    {
+      "version": 55,
+      "timestamp": "2025-10-29T12:17:44.675506",
+      "samples_added": 50000,
+      "total_samples": 2630049,
+      "metrics": {
+        "accuracy": 0.9306,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v55.pkl"
+    },
+    {
+      "version": 56,
+      "timestamp": "2025-10-29T12:17:45.180179",
+      "samples_added": 50000,
+      "total_samples": 2680049,
+      "metrics": {
+        "accuracy": 0.87888,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v56.pkl"
+    },
+    {
+      "version": 57,
+      "timestamp": "2025-10-29T12:17:45.710066",
+      "samples_added": 50000,
+      "total_samples": 2730049,
+      "metrics": {
+        "accuracy": 0.67614,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v57.pkl"
+    },
+    {
+      "version": 58,
+      "timestamp": "2025-10-29T12:17:46.184642",
+      "samples_added": 50000,
+      "total_samples": 2780049,
+      "metrics": {
+        "accuracy": 0.65782,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v58.pkl"
+    },
+    {
+      "version": 59,
+      "timestamp": "2025-10-29T12:17:46.668963",
+      "samples_added": 50000,
+      "total_samples": 2830049,
+      "metrics": {
+        "accuracy": 0.87932,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v59.pkl"
+    },
+    {
+      "version": 60,
+      "timestamp": "2025-10-29T12:17:47.150695",
+      "samples_added": 50000,
+      "total_samples": 2880049,
+      "metrics": {
+        "accuracy": 0.83144,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v60.pkl"
+    },
+    {
+      "version": 61,
+      "timestamp": "2025-10-29T12:17:47.602738",
+      "samples_added": 50000,
+      "total_samples": 2930049,
+      "metrics": {
+        "accuracy": 0.6553,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v61.pkl"
+    },
+    {
+      "version": 62,
+      "timestamp": "2025-10-29T12:17:48.071670",
+      "samples_added": 50000,
+      "total_samples": 2980049,
+      "metrics": {
+        "accuracy": 0.83786,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v62.pkl"
+    },
+    {
+      "version": 63,
+      "timestamp": "2025-10-29T12:17:48.516061",
+      "samples_added": 50000,
+      "total_samples": 3030049,
+      "metrics": {
+        "accuracy": 0.75354,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v63.pkl"
+    },
+    {
+      "version": 64,
+      "timestamp": "2025-10-29T12:17:49.005264",
+      "samples_added": 50000,
+      "total_samples": 3080049,
+      "metrics": {
+        "accuracy": 0.702,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v64.pkl"
+    },
+    {
+      "version": 65,
+      "timestamp": "2025-10-29T12:17:49.450862",
+      "samples_added": 50000,
+      "total_samples": 3130049,
+      "metrics": {
+        "accuracy": 0.77704,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v65.pkl"
+    },
+    {
+      "version": 66,
+      "timestamp": "2025-10-29T12:17:49.924111",
+      "samples_added": 50000,
+      "total_samples": 3180049,
+      "metrics": {
+        "accuracy": 0.71462,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v66.pkl"
+    },
+    {
+      "version": 67,
+      "timestamp": "2025-10-29T12:17:50.798171",
+      "samples_added": 50000,
+      "total_samples": 3230049,
+      "metrics": {
+        "accuracy": 0.66258,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v67.pkl"
+    },
+    {
+      "version": 68,
+      "timestamp": "2025-10-29T12:17:51.788937",
+      "samples_added": 50000,
+      "total_samples": 3280049,
+      "metrics": {
+        "accuracy": 0.80176,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v68.pkl"
+    },
+    {
+      "version": 69,
+      "timestamp": "2025-10-29T12:17:52.878824",
+      "samples_added": 50000,
+      "total_samples": 3330049,
+      "metrics": {
+        "accuracy": 0.8664,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v69.pkl"
+    },
+    {
+      "version": 70,
+      "timestamp": "2025-10-29T12:17:53.443726",
+      "samples_added": 50000,
+      "total_samples": 3380049,
+      "metrics": {
+        "accuracy": 0.76678,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v70.pkl"
+    },
+    {
+      "version": 71,
+      "timestamp": "2025-10-29T12:17:54.008365",
+      "samples_added": 50000,
+      "total_samples": 3430049,
+      "metrics": {
+        "accuracy": 0.93726,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v71.pkl"
+    },
+    {
+      "version": 72,
+      "timestamp": "2025-10-29T12:17:54.542732",
+      "samples_added": 50000,
+      "total_samples": 3480049,
+      "metrics": {
+        "accuracy": 0.8588,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v72.pkl"
+    },
+    {
+      "version": 73,
+      "timestamp": "2025-10-29T12:17:55.030100",
+      "samples_added": 50000,
+      "total_samples": 3530049,
+      "metrics": {
+        "accuracy": 0.8203,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v73.pkl"
+    },
+    {
+      "version": 74,
+      "timestamp": "2025-10-29T12:17:55.414941",
+      "samples_added": 33685,
+      "total_samples": 3563734,
+      "metrics": {
+        "accuracy": 0.8496363366483598,
+        "auc_score": null
+      },
+      "model_path": "models/signal_v74.pkl"
+    }
+  ],
+  "current_version": 74
+}

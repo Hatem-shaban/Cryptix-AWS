@@ -73,7 +73,7 @@ This guide walks you through migrating your CRYPTIX-ML trading bot from Oracle C
 
 1. Go to **EC2 Dashboard > Instances**
 2. Click on your `cryptix-bot` instance
-3. Note the **Public IPv4 address** (e.g., `54.194.123.45`)
+3. Note the **Public IPv4 address** (e.g., `51.20.60.192`)
 4. Wait for **Instance State** to show "running" and **Status Checks** to be "2/2 passed"
 
 ---
@@ -94,13 +94,13 @@ icacls "cryptix-ec2.pem" /inheritance:r
 
 **B. Connect via SSH:**
 ```powershell
-# Replace 54.194.123.45 with your actual instance IP
-ssh -i "cryptix-ec2.pem" ubuntu@54.194.123.45
+# Replace 51.20.60.192 with your actual instance IP
+ssh -i "cryptix-ec2.pem" ubuntu@51.20.60.192
 ```
 
 You should see:
 ```
-The authenticity of host '54.194.123.45' can't be established...
+The authenticity of host '51.20.60.192' can't be established...
 Are you sure you want to continue connecting (yes/no/fingerprint)?
 ```
 Type `yes` and press Enter.
@@ -273,7 +273,7 @@ sudo systemctl restart nginx
 ```
 
 ### Step 4: Access Your Bot
-Open your browser and go to: `http://54.194.123.45` (replace with your IP)
+Open your browser and go to: `http://51.20.60.192` 
 
 ---
 
@@ -381,7 +381,7 @@ chmod 600 cryptix-ec2.pem
 Periodically download your trades and configuration:
 ```bash
 # From your local machine:
-scp -i "cryptix-ec2.pem" -r ubuntu@54.194.123.45:~/cryptix/logs ./backup-$(date +%Y%m%d)
+scp -i "cryptix-ec2.pem" -r ubuntu@51.20.60.192:~/cryptix/logs ./backup-$(date +%Y%m%d)
 ```
 
 ---
@@ -515,7 +515,7 @@ Your CRYPTIX trading bot is now running on AWS EC2 Free Tier with:
 
 ```bash
 # Connect to instance
-ssh -i "cryptix-ec2.pem" ubuntu@54.194.123.45
+ssh -i "$env:USERPROFILE\Downloads\cryptix-ec2.pem" ubuntu@51.20.60.192
 
 # View bot status
 sudo systemctl status cryptix
@@ -533,7 +533,7 @@ cd ~/cryptix && git pull && sudo systemctl restart cryptix
 free -h && df -h
 
 # View Flask dashboard
-# Open browser to: http://54.194.123.45
+# Open browser to: http://51.20.60.192
 ```
 
 ---

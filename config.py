@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Trading Symbols Configuration
-SYMBOLS = os.getenv('SYMBOLS', 'BTCUSDT,ETHUSDT,ADAUSDT,DOTUSDT,LINKUSDT').split(',')
+SYMBOLS = os.getenv('SYMBOLS', 'BTCUSDT,ETHUSDT,ADAUSDT,LINKUSDT').split(',')
 
 # Binance API Configuration (loaded from environment variables)
 API_KEY = os.getenv('API_KEY', '')
@@ -87,7 +87,7 @@ EMERGENCY_STOP_CONDITIONS = {
 
 # Trading Pairs
 DEFAULT_PAIR = "BTCUSDT"
-MONITORED_BASE_ASSETS = ["BTC", "ETH", "BNB", "XRP", "SOL", "DOT", "ADA"]
+MONITORED_BASE_ASSETS = ["BTC", "ETH", "BNB", "XRP", "ADA"]
 QUOTE_ASSET = "USDT"
 
 # Technical Analysis
@@ -244,16 +244,16 @@ REBALANCING = {
     'dust_threshold_usdt': 5.0,         # Minimum position value (below = dust)
     'max_dust_liquidations_per_run': 5, # Limit dust liquidations per run
     'assets_to_monitor': [              # Assets to monitor for rebalancing
-        'BTC', 'ETH', 'BNB', 'SOL', 'XRP', 'ADA', 'DOT', 'AVAX', 'MATIC', 'LINK'
+        'BTC', 'ETH', 'BNB', 'XRP', 'ADA', 'AVAX', 'LINK'
     ],
     'partial_sell_conditions': {
-        'SOL': {'rsi_threshold': 70, 'sell_percentage': 40, 'minimum_profit_pct': 2.0},
         'BTC': {'rsi_threshold': 75, 'sell_percentage': 30, 'minimum_profit_pct': 1.5},
         'ETH': {'rsi_threshold': 72, 'sell_percentage': 35, 'minimum_profit_pct': 2.0},
         'BNB': {'rsi_threshold': 70, 'sell_percentage': 40, 'minimum_profit_pct': 2.5},
         'AVAX': {'rsi_threshold': 70, 'sell_percentage': 40, 'minimum_profit_pct': 3.0},
         'LINK': {'rsi_threshold': 70, 'sell_percentage': 40, 'minimum_profit_pct': 2.5},
     },
+
     'preserve_core_holdings': {         # Keep minimum holdings
         'BTC': 0.001,                   # Always keep at least 0.001 BTC
         'ETH': 0.01,                    # Always keep at least 0.01 ETH

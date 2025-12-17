@@ -1603,7 +1603,7 @@ def detect_breakout_opportunities():
     """Real-time breakout and momentum opportunity detection with rate limiting"""
     try:
         opportunities = []
-        major_pairs = ["BTCUSDT", "ETHUSDT", "BNBUSDT", "ADAUSDT", "SOLUSDT"]  # Restored original 5 symbols
+        major_pairs = ["BTCUSDT", "ETHUSDT", "BNBUSDT", "ADAUSDT"]  # Restored original 4 symbols
         
         # Rate limiting between API calls
         breakout_delay = 0.3  # 300ms delay between fetch calls
@@ -2412,7 +2412,7 @@ def get_account_balance_for_ui():
                 if asset == 'USDT':
                     usdt_balance = total_balance
                     total_value += total_balance
-                elif asset in ['BTC', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'LINK', 'AVAX', 'XRP']:
+                elif asset in ['BTC', 'ETH', 'BNB', 'ADA', 'LINK', 'AVAX', 'XRP']:
                     # Get price for major coins to calculate value
                     try:
                         ticker = client.get_ticker(symbol=f"{asset}USDT")
@@ -4082,7 +4082,7 @@ def scan_trading_pairs(base_assets=None, quote_asset="USDT", min_volume_usdt=100
     
     # Default assets if none provided
     if base_assets is None:
-        base_assets = ["BTC", "ETH", "BNB", "XRP", "SOL", "MATIC", "DOT", "ADA", "AVAX", "LINK"]  # Restored original 10 symbols
+        base_assets = ["BTC", "ETH", "BNB", "XRP", "ADA", "AVAX", "LINK"]  # Reduced symbols
     
     # Add rate limiting to prevent API ban
     scan_delay = 0.5  # 500ms delay between API calls
@@ -4490,7 +4490,7 @@ def trading_loop():
             if should_full_scan:
                 print("🔍 Performing FULL MARKET SCAN")
                 opportunities = scan_trading_pairs(
-                    base_assets=["BTC", "ETH", "BNB", "XRP", "SOL", "MATIC", "DOT", "ADA", "AVAX", "LINK"],  # Restored original 10 symbols
+                    base_assets=["BTC", "ETH", "BNB", "XRP", "ADA", "AVAX", "LINK"],
                     quote_asset="USDT",
                     min_volume_usdt=500000  # Lower threshold for more opportunities
                 )
@@ -6630,7 +6630,7 @@ def detect_dust_positions(min_usdt_value=None):
             is_dust = False
             
             try:
-                if asset in ['BTC', 'ETH', 'BNB', 'SOL', 'XRP', 'ADA', 'DOT', 'AVAX', 'MATIC', 'LINK', 'UNI', 'ATOM', 'XLM', 'VET', 'FIL', 'TRX', 'ETC', 'LTC', 'BCH', 'EOS', 'XTZ', 'NEO', 'DASH', 'ZEC', 'QTUM', 'ONT', 'BAT', 'ZIL', 'RVN', 'DOGE', 'SHIB']:
+                if asset in ['BTC', 'ETH', 'BNB', 'XRP', 'ADA', 'AVAX', 'LINK', 'UNI', 'ATOM', 'XLM', 'VET', 'FIL', 'TRX', 'ETC', 'LTC', 'BCH', 'EOS', 'XTZ', 'NEO', 'DASH', 'ZEC', 'QTUM', 'ONT', 'BAT', 'ZIL', 'RVN', 'DOGE', 'SHIB']:
                     symbol = f"{asset}USDT"
                     ticker = client.get_ticker(symbol=symbol)
                     price = float(ticker['lastPrice'])
@@ -6965,7 +6965,7 @@ def liquidate_dust_position(dust_position):
             return {"success": False, "error": "Client not initialized"}
             
         asset = dust_position['asset']
-        original_symbol = dust_position['symbol']  # e.g., DOTUSDT
+        original_symbol = dust_position['symbol']  # e.g., ADAUSDT
         quantity = dust_position['quantity']
         
         print(f"\n💨 Liquidating dust position: {asset}")
@@ -7279,7 +7279,7 @@ def convert_dust_to_bnb():
                 continue
                 
             # Check if asset has very small balance (likely dust)
-            if asset in ['BTC', 'ETH', 'SOL', 'XRP', 'ADA', 'DOT'] and free_balance > 0:
+            if asset in ['BTC', 'ETH', 'XRP', 'ADA'] and free_balance > 0:
                 try:
                     ticker = client.get_ticker(symbol=f"{asset}USDT")
                     price = float(ticker['lastPrice'])

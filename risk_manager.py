@@ -222,7 +222,7 @@ class EnhancedRiskManager:
         try:
             # Simplified correlation check based on asset categories
             crypto_majors = ['BTC', 'ETH']
-            altcoins = ['BNB', 'ADA', 'SOL', 'DOT', 'MATIC', 'AVAX']
+            altcoins = ['BNB', 'ADA', 'AVAX']
             defi_tokens = ['UNI', 'AAVE', 'COMP', 'MKR']
             
             categories = {

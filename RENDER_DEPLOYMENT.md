@@ -15,7 +15,7 @@ This guide explains how to deploy CRYPTIX-ML on Render with memory optimizations
 - **Memory Monitoring**: Real-time monitoring with automatic cleanup triggers
 
 ### Trading Logic Preserved:
-- ✅ **All trading symbols maintained** (BTC, ETH, BNB, XRP, SOL, MATIC, DOT, ADA, AVAX, LINK)
+- ✅ **All trading symbols maintained** (BTC, ETH, BNB, XRP, ADA, AVAX, LINK)
 - ✅ **All trading strategies intact** (ML_PURE, ADAPTIVE)
 - ✅ **All technical indicators preserved** (RSI, MACD, SMA, EMA, etc.)
 - ✅ **All trading logic unchanged**
@@ -172,7 +172,7 @@ emergency_memory_cleanup()
 With these optimizations:
 - **Memory usage**: Should stay under 450MB consistently
 - **Trading performance**: Identical to original
-- **All symbols traded**: BTC, ETH, BNB, XRP, SOL, MATIC, DOT, ADA, AVAX, LINK
+- **All symbols traded**: BTC, ETH, BNB, XRP, ADA, AVAX, LINK
 - **All strategies working**: ML_PURE, ADAPTIVE, etc.
 - **No reduction in features**: All indicators, signals, and analysis preserved
 

@@ -87,7 +87,7 @@ if signal == "SELL":
 ### Post-Fix Status
 - ✅ All positions correctly loaded from Supabase
 - ✅ SupabasePositionTracker initialized (verified type)
-- ✅ 9 positions tracked with full data:
+- ✅ 7 positions tracked with full data:
   - XRPUSDT: 93.00 @ $2.9519
   - BTCUSDT: 0.00377 @ $115132.91
   - ETHUSDT: 0.0001 @ $4305.51
@@ -95,8 +95,6 @@ if signal == "SELL":
   - ADAUSDT: 154.9 @ $0.8108
   - AVAXUSDT: 6.61 @ $27.57
   - LINKUSDT: 2.26 @ $18.43
-  - DOTUSDT: 6.49 @ $4.13
-  - SOLUSDT: 0.004 @ $201.96
 
 ### Signal Validation Tests
 

@@ -25,7 +25,7 @@ position_tracker = get_position_tracker()
 
 ### Post-Fix  
 - ✅ 9 positions loaded from Supabase
-- ✅ All types tracked: XRPUSDT, BTCUSDT, ETHUSDT, BNBUSDT, ADAUSDT, AVAXUSDT, LINKUSDT, DOTUSDT, SOLUSDT
+- ✅ All types tracked: XRPUSDT, BTCUSDT, ETHUSDT, BNBUSDT, ADAUSDT, AVAXUSDT, LINKUSDT
 - ✅ Sell validation working: Profitable sells allowed, loss-sells blocked
 - ✅ **ZERO new errors since restart**
 

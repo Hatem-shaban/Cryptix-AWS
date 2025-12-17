@@ -208,7 +208,7 @@ def patch_web_bot_functions():
             
             # Keep original symbols - do not reduce trading pairs
             if base_assets is None:
-                base_assets = ["BTC", "ETH", "BNB", "XRP", "SOL", "MATIC", "DOT", "ADA", "AVAX", "LINK"]
+                base_assets = ["BTC", "ETH", "BNB", "XRP", "ADA", "AVAX", "LINK"]
             
             # Increase delay slightly to reduce memory pressure from rapid API calls
             scan_delay = 0.6  # Slightly longer delay

@@ -175,7 +175,7 @@ ModuleNotFoundError: No module named 'sklearn'
 **Solution**:
 ```bash
 # Verify you're in venv (should show (venv) in prompt)
-source ~/cryptix/venv/bin/activate
+source ~/Cryptix-AWS/venv/bin/activate
 # Output should be: (venv) ubuntu@...
 
 # Reinstall requirements
@@ -205,7 +205,7 @@ $ sudo systemctl status cryptix
 sudo journalctl -u cryptix -n 100 --no-pager
 
 # Test running the bot manually
-cd ~/cryptix
+cd ~/Cryptix-AWS
 source venv/bin/activate
 python render_launcher.py
 
@@ -242,9 +242,9 @@ sudo systemctl restart cryptix
 **Cause 3: Permission issues**
 ```bash
 # Fix directory permissions
-sudo chown -R ubuntu:ubuntu ~/cryptix
-chmod -R 755 ~/cryptix
-chmod -R 644 ~/cryptix/.*
+sudo chown -R ubuntu:ubuntu ~/Cryptix-AWS
+chmod -R 755 ~/Cryptix-AWS
+chmod -R 644 ~/Cryptix-AWS/.*
 
 # Restart
 sudo systemctl restart cryptix
@@ -253,7 +253,7 @@ sudo systemctl restart cryptix
 **Cause 4: Python venv broken**
 ```bash
 # Recreate virtual environment
-cd ~/cryptix
+cd ~/Cryptix-AWS
 rm -rf venv
 python3 -m venv venv
 source venv/bin/activate
@@ -495,7 +495,7 @@ sudo journalctl -u cryptix -n 50 --no-pager
 ```bash
 # Verify systemd file paths are correct
 grep "ExecStart" /etc/systemd/system/cryptix.service
-# Should show: /home/ubuntu/cryptix/venv/bin/python render_launcher.py
+# Should show: /home/ubuntu/Cryptix-AWS/venv/bin/python render_launcher.py
 
 # Reload and restart
 sudo systemctl daemon-reload
@@ -552,8 +552,8 @@ tail -f ~/cryptix/logs/error_log.csv
 1. **Missing data files**
    ```
    Check if models/ and logs/ directories exist
-   ls -la ~/cryptix/models/
-   ls -la ~/cryptix/logs/
+   ls -la ~/Cryptix-AWS/models/
+   ls -la ~/Cryptix-AWS/logs/
    ```
 
 2. **Supabase disconnected**

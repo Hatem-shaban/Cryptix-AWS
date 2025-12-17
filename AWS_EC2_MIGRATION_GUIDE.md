@@ -527,7 +527,7 @@ sudo journalctl -u cryptix -f
 sudo systemctl restart cryptix
 
 # Update code
-cd ~/cryptix && git pull && sudo systemctl restart cryptix
+cd ~/Cryptix-AWS && git pull && sudo systemctl restart cryptix
 
 # Check resources
 free -h && df -h

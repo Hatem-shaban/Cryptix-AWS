@@ -3140,6 +3140,18 @@ def signal_generator(df, symbol="BTCUSDT"):
             reason = f"PROFIT_VALIDATION_ERROR - {validation_error}"
     # ===== END PROFIT VALIDATION =====
     
+    # Block BUY signals except for BTC and ETH
+    try:
+        allowed_buy_assets = {"BTC", "ETH"}
+        base_asset = symbol.replace("USDT", "") if isinstance(symbol, str) and symbol.endswith("USDT") else (symbol.split("/")[0] if isinstance(symbol, str) and "/" in symbol else symbol)
+        if signal == "BUY" and base_asset not in allowed_buy_assets:
+            print(f"🚫 BUY blocked for {symbol}: only BTC and ETH allowed")
+            reason = f"BUY_BLOCKED - Allowed assets: BTC, ETH"
+            log_error_to_csv(reason, "BUY_BLOCKED", "signal_generator", "WARNING")
+            signal = "HOLD"
+    except Exception as e:
+        log_error_to_csv(f"Error in buy-block check: {e}", "INTERNAL_ERROR", "signal_generator", "ERROR")
+
     # Final signal logging and notifications
     log_signal_to_csv(signal, current_price, indicators, f"Strategy {strategy} - {reason}")
     
@@ -3297,6 +3309,23 @@ def execute_trade(signal, symbol="BTCUSDT", qty=None):
         log_error_to_csv(str(e), "SYMBOL_INFO_ERROR", "execute_trade", "ERROR")
         print(f"Error getting symbol info: {e}")
         return f"Failed to get symbol info: {e}"
+
+    # Safety: Block BUY execution except for BTC and ETH
+    try:
+        if signal == "BUY":
+            base_asset = None
+            if symbol_info and 'baseAsset' in symbol_info:
+                base_asset = symbol_info.get('baseAsset')
+            else:
+                base_asset = symbol.replace('USDT', '') if isinstance(symbol, str) and symbol.endswith('USDT') else (symbol.split('/')[0] if isinstance(symbol, str) and '/' in symbol else symbol)
+
+            if base_asset not in {"BTC", "ETH"}:
+                msg = f"BUY blocked by policy for {symbol} (only BTC/ETH allowed)"
+                print(f"🚫 {msg}")
+                log_error_to_csv(msg, "BUY_BLOCKED", "execute_trade", "WARNING")
+                return f"Blocked: {msg}"
+    except Exception as e:
+        log_error_to_csv(f"Error in buy-block execution check: {e}", "INTERNAL_ERROR", "execute_trade", "ERROR")
     
     # Create trade info structure early to avoid scope issues
     trade_info = {
